@@ -1,0 +1,111 @@
+/* Audit refinements: keep the established STARDOTS palette and composition. */
+:where(a, button, input, select, textarea, summary):focus-visible { outline: 3px solid #657d55; outline-offset: 3px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; } }
+
+.page-hero.compact .page-hero-grid { min-height: 320px; }
+.page-hero.compact .page-hero-grid > img { height: 270px; }
+.quality-visual { min-height: 350px; padding: 38px 42px; background: #e9ece5; border: 1px solid #d4dcd0; display: flex; flex-direction: column; justify-content: center; }
+.quality-visual h2 { font-family: var(--serif); font-size: clamp(27px, 2.5vw, 36px); line-height: 1.14; margin: 0 0 16px; }
+.quality-visual ol { list-style: none; padding: 0; margin: 0; display: grid; gap: 11px; }
+.quality-visual li { display: flex; align-items: center; gap: 12px; padding-bottom: 10px; border-bottom: 1px solid #cfd8cc; font-size: 15px; }
+.quality-visual li svg { flex: none; color: #4c6448; }
+.quality-visual p { margin: 17px 0 0; font-size: 13px; color: #506050; }
+
+.category-image, .model-card-photo { display: grid; place-items: center; }
+.category-image picture, .model-card-photo picture { display: block; width: 100%; height: 100%; }
+.category-image img, .index-category img, .catalog-hero-grid > img { object-fit: contain; background: #f6f6f3; }
+.category-image img { padding: 6px; }
+.model-card-photo { aspect-ratio: 1.12; padding: clamp(8px, 1.2vw, 16px); }
+.model-card-photo img, .model-main-photo img, .model-thumbs img { width: 100%; height: 100%; object-fit: contain; }
+.model-card.category-smallgoods .model-card-photo { padding: 7px; }
+.model-card.category-backpack .model-card-photo { padding: 14px; }
+.model-card-copy h3 { overflow-wrap: anywhere; }
+.model-grid-single { grid-template-columns: minmax(240px, 330px); }
+.model-gallery, .model-information, .model-thumbs { min-width: 0; max-width: 100%; }
+.model-thumbs { width: 100%; }
+.catalog-count { font-weight: 600; }
+.catalog-empty { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.catalog-empty p { margin: 0; }
+.catalog-empty button { color: #273b2b; border: 1px solid #6d8269; padding: 9px 13px; background: #fff; }
+.photo-unavailable { width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 5px; color: #647164; text-align: center; background: #f1f2ee; font-size: 13px; }
+.photo-unavailable strong { color: #263326; }
+.model-main-photo { overflow: hidden; display: grid; place-items: center; padding: clamp(10px, 2vw, 26px); }
+.model-main-photo > img, .model-main-photo > .photo-unavailable { min-width: 0; min-height: 0; }
+.model-main-photo .model-zoom-open, .model-main-photo .model-zoom-open:first-of-type, .model-main-photo .model-zoom-open:last-of-type { top: auto; bottom: 15px; right: 15px; left: auto; transform: none; border-radius: 3px; }
+.model-facts-title, .model-discuss h2 { font-family: var(--serif); font-size: 23px; margin: 26px 0 11px; }
+.model-spec { margin-top: 0; }
+.model-spec > div { grid-template-columns: 135px 1fr; }
+.model-discuss ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 9px; }
+.model-discuss li { display: flex; gap: 9px; align-items: start; line-height: 1.4; }
+.model-discuss svg { flex: none; margin-top: 2px; }
+.model-lightbox { width: min(92vw, 1080px); max-height: 94vh; padding: 20px; border: 0; background: #f8f9f6; box-shadow: 0 24px 70px #0005; }
+.model-lightbox::backdrop { background: rgba(10, 18, 12, .77); }
+.model-lightbox img, .model-lightbox .photo-unavailable { display: block; width: 100%; height: min(72vh, 750px); object-fit: contain; }
+.model-lightbox p { text-align: center; margin: 12px 0 0; font-size: 14px; }
+.lightbox-close { position: absolute; right: 22px; top: 22px; z-index: 1; width: 44px; height: 44px; display: grid; place-items: center; border: 1px solid #d1d8ce; background: #fff; }
+.lightbox-controls { display: flex; justify-content: center; gap: 10px; margin-top: 10px; }
+.lightbox-controls button { min-height: 42px; padding: 0 18px; border: 1px solid #80907c; background: #fff; }
+
+.buyer-note { padding-right: 18px; border-right: 1px solid #e1e5dd; }
+.buyer-note h2 { font-family: var(--serif); font-size: clamp(20px, 1.7vw, 25px); line-height: 1.18; }
+.buyer-note p, .buyer-note li { font-size: 13px; line-height: 1.5; }
+.buyer-note ul { margin: 10px 0; padding-left: 19px; }
+.buyer-note .link-arrow { font-size: 13px; }
+.field-error { display: block; margin-top: 5px; color: #994136; font-weight: 600; font-size: 13px; }
+.quote-form [aria-invalid="true"] { border-color: #a64537 !important; }
+.form-status.info { background: #edf2e9; color: #344d30; }
+.optional { font-weight: 400; color: #667267; }
+.main-nav.is-open { max-height: calc(100dvh - 66px); overflow-y: auto; }
+
+@media (min-width: 901px) {
+  .hero-benefits span { font-size: clamp(11px, .85vw, 13px); }
+  .home-page .strength h3 { font-size: clamp(14px, 1.12vw, 17px); }
+  .home-page .strength p, .process-card p, .development-copy p { font-size: clamp(12px, .91vw, 14px); line-height: 1.38; }
+  .process-card h3, .development-services strong { font-size: clamp(12px, .92vw, 14px); }
+  .development-services small, .category-card span, .market-info span:not(.round-arrow) { font-size: clamp(11px, .83vw, 13px); }
+  .insights-section .article-card strong, .home-faq .faq-list summary, .buyer-note p, .buyer-note li { font-size: clamp(12px, .9vw, 14px); }
+  .home-faq .faq-list summary { min-height: 31px; }
+  .footer-grid h3, .footer-grid > div:not(:first-child) > a, .footer-grid .footer-contact, .footer-brand p, .footer-grid > div:last-child p { font-size: clamp(12px, .84vw, 14px); }
+  .footer-bottom .container { font-size: 12px; }
+}
+
+@media (max-width: 900px) {
+  .quality-visual { min-height: 270px; }
+  .page-hero.compact .page-hero-grid { min-height: 0; }
+}
+@media (max-width: 650px) {
+  .model-detail-grid { grid-template-columns: minmax(0, 1fr); }
+  .hero-content > p { font-size: 15px; line-height: 1.55; }
+  /* The source photo has wide empty space on its left; frame the bag group on phones. */
+  .hero-image { height: 250px; background-position: right center; }
+  .hero-benefits span { font-size: 12px; }
+  .section-heading h2, .insights-section .section-heading h2 { font-size: 26px; }
+  .section-heading p, .insights-section .section-heading p { font-size: 14px; }
+  .category-card strong, .market-info strong { font-size: 15px; }
+  .category-card span, .market-info span:not(.round-arrow) { font-size: 13px; }
+  .process-grid { grid-template-columns: 1fr; }
+  .process-card { min-height: 106px; padding: 26px 20px 18px 82px; }
+  .process-card > svg:not(.process-next) { left: 26px; top: 58px; }
+  .process-card h3 { font-size: 16px; }
+  .process-card p { font-size: 14px; }
+  .development-services { grid-template-columns: 1fr; gap: 9px; }
+  .development-services strong { font-size: 15px; }
+  .development-services small { font-size: 13px; }
+  .article-grid { grid-template-columns: 1fr; }
+  .article-card { display: grid; grid-template-columns: 115px 1fr; min-height: 112px; }
+  .article-card img, .insights-section .article-card img { width: 115px; height: 100%; min-height: 112px; }
+  .article-card strong, .insights-section .article-card strong { font-size: 15px; min-height: 0; }
+  .article-card span, .insights-section .article-card span { font-size: 12px; }
+  .buyer-note { margin-top: 30px; padding: 0; border: 0; }
+  .buyer-note h2 { font-size: 24px; }
+  .buyer-note p, .buyer-note li { font-size: 15px; }
+  .footer-grid h3 { font-size: 15px; }
+  .footer-grid > div:not(:first-child) > a, .footer-grid .footer-contact, .footer-brand p, .footer-grid > div:last-child p { font-size: 13px; }
+  .model-grid-single { grid-template-columns: minmax(0, 1fr); }
+  .model-card-copy h3 { font-size: 16px; }
+  .catalog-empty { flex-direction: column; align-items: start; }
+  .quality-visual { min-height: 0; padding: 28px 24px; }
+  .quality-visual h2 { font-size: 29px; }
+  .model-lightbox { width: 96vw; padding: 12px; }
+  .model-lightbox img, .model-lightbox .photo-unavailable { height: min(67vh, 620px); }
+}

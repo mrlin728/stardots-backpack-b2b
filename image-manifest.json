@@ -1,0 +1,4829 @@
+{
+  "generatedAt": "2026-09-28T05:11:37.353Z",
+  "note": "Remote originals remain in the existing public product archive. Static AVIFs are smaller card derivatives. Local illustrative assets are not proof of company facilities or specific product specifications.",
+  "totals": {
+    "local": 85,
+    "remote": 143,
+    "models": 67,
+    "cardDerivatives": 67
+  },
+  "images": [
+    {
+      "url": "/favicon.svg",
+      "source": "Local illustrative or editorial asset; not evidence of company facilities or a product model",
+      "usage": [
+        {
+          "role": "local asset",
+          "alt": "",
+          "loading": "review usage"
+        }
+      ],
+      "references": [
+        {
+          "file": "index.html",
+          "line": 8
+        }
+      ],
+      "width": 64,
+      "height": 64,
+      "aspectRatio": 1,
+      "bytes": 251,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/images/backpack.webp",
+      "source": "Retained legacy asset; currently unused",
+      "usage": [
+        {
+          "role": "local asset",
+          "alt": "",
+          "loading": "review usage"
+        }
+      ],
+      "references": [],
+      "width": 900,
+      "height": 900,
+      "aspectRatio": 1,
+      "bytes": 30488,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/images/briefcase.webp",
+      "source": "Retained legacy asset; currently unused",
+      "usage": [
+        {
+          "role": "local asset",
+          "alt": "",
+          "loading": "review usage"
+        }
+      ],
+      "references": [],
+      "width": 900,
+      "height": 900,
+      "aspectRatio": 1,
+      "bytes": 30534,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/images/design-reference.jpg",
+      "source": "Local illustrative or editorial asset; not evidence of company facilities or a product model",
+      "usage": [
+        {
+          "role": "article",
+          "slug": "develop-custom-bag-collection",
+          "alt": "",
+          "loading": "lazy on cards; eager on article page"
+        },
+        {
+          "role": "service",
+          "slug": "oem-odm",
+          "alt": "Bag concept sketches",
+          "loading": "eager on service page"
+        }
+      ],
+      "references": [
+        {
+          "file": "src/App.jsx",
+          "line": 143
+        },
+        {
+          "file": "src/App.jsx",
+          "line": 183
+        },
+        {
+          "file": "src/App.jsx",
+          "line": 187
+        },
+        {
+          "file": "src/App.jsx",
+          "line": 213
+        },
+        {
+          "file": "src/data.js",
+          "line": 33
+        },
+        {
+          "file": "src/data.js",
+          "line": 46
+        },
+        {
+          "file": "src/seo.js",
+          "line": 18
+        }
+      ],
+      "width": 1200,
+      "height": 675,
+      "aspectRatio": 1.778,
+      "bytes": 236322,
+      "duplicateReferences": true
+    },
+    {
+      "url": "/images/design.webp",
+      "source": "Retained legacy asset; currently unused",
+      "usage": [
+        {
+          "role": "local asset",
+          "alt": "",
+          "loading": "review usage"
+        }
+      ],
+      "references": [],
+      "width": 900,
+      "height": 600,
+      "aspectRatio": 1.5,
+      "bytes": 80506,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/images/duffel-reference.jpg",
+      "source": "Retained legacy asset; currently unused",
+      "usage": [
+        {
+          "role": "local asset",
+          "alt": "",
+          "loading": "review usage"
+        }
+      ],
+      "references": [],
+      "width": 1200,
+      "height": 800,
+      "aspectRatio": 1.5,
+      "bytes": 170614,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/images/duffel.webp",
+      "source": "Local illustrative or editorial asset; not evidence of company facilities or a product model",
+      "usage": [
+        {
+          "role": "local asset",
+          "alt": "",
+          "loading": "review usage"
+        }
+      ],
+      "references": [
+        {
+          "file": "src/App.jsx",
+          "line": 196
+        }
+      ],
+      "width": 900,
+      "height": 900,
+      "aspectRatio": 1,
+      "bytes": 32202,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/images/handbag.jpg",
+      "source": "Retained legacy asset; currently unused",
+      "usage": [
+        {
+          "role": "local asset",
+          "alt": "",
+          "loading": "review usage"
+        }
+      ],
+      "references": [],
+      "width": 1312,
+      "height": 1199,
+      "aspectRatio": 1.094,
+      "bytes": 263841,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/images/harbor.jpg",
+      "source": "Local illustrative or editorial asset; not evidence of company facilities or a product model",
+      "usage": [
+        {
+          "role": "article",
+          "slug": "shipping-bags-internationally",
+          "alt": "",
+          "loading": "lazy on cards; eager on article page"
+        },
+        {
+          "role": "service",
+          "slug": "logistics",
+          "alt": "Shipping harbor",
+          "loading": "eager on service page"
+        }
+      ],
+      "references": [
+        {
+          "file": "src/data.js",
+          "line": 35
+        },
+        {
+          "file": "src/data.js",
+          "line": 58
+        },
+        {
+          "file": "src/styles.css",
+          "line": 15
+        }
+      ],
+      "width": 2056,
+      "height": 765,
+      "aspectRatio": 2.688,
+      "bytes": 392631,
+      "duplicateReferences": true
+    },
+    {
+      "url": "/images/hero-bags.jpg",
+      "source": "Local illustrative or editorial asset; not evidence of company facilities or a product model",
+      "usage": [
+        {
+          "role": "local asset",
+          "alt": "",
+          "loading": "review usage"
+        }
+      ],
+      "references": [
+        {
+          "file": "src/App.jsx",
+          "line": 170
+        },
+        {
+          "file": "src/App.jsx",
+          "line": 183
+        },
+        {
+          "file": "src/seo.js",
+          "line": 15
+        },
+        {
+          "file": "src/seo.js",
+          "line": 17
+        },
+        {
+          "file": "src/styles.css",
+          "line": 6
+        }
+      ],
+      "width": 2043,
+      "height": 770,
+      "aspectRatio": 2.653,
+      "bytes": 262741,
+      "duplicateReferences": true
+    },
+    {
+      "url": "/images/markets.jpg",
+      "source": "Local illustrative or editorial asset; not evidence of company facilities or a product model",
+      "usage": [
+        {
+          "role": "local asset",
+          "alt": "",
+          "loading": "review usage"
+        }
+      ],
+      "references": [
+        {
+          "file": "src/styles.css",
+          "line": 13
+        }
+      ],
+      "width": 2172,
+      "height": 724,
+      "aspectRatio": 3,
+      "bytes": 575847,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/images/materials-reference.jpg",
+      "source": "Local illustrative or editorial asset; not evidence of company facilities or a product model",
+      "usage": [
+        {
+          "role": "article",
+          "slug": "choosing-bag-materials",
+          "alt": "",
+          "loading": "lazy on cards; eager on article page"
+        },
+        {
+          "role": "service",
+          "slug": "sourcing",
+          "alt": "Material swatches for bag development",
+          "loading": "eager on service page"
+        }
+      ],
+      "references": [
+        {
+          "file": "src/App.jsx",
+          "line": 205
+        },
+        {
+          "file": "src/data.js",
+          "line": 32
+        },
+        {
+          "file": "src/data.js",
+          "line": 52
+        },
+        {
+          "file": "src/seo.js",
+          "line": 20
+        }
+      ],
+      "width": 1200,
+      "height": 800,
+      "aspectRatio": 1.5,
+      "bytes": 543882,
+      "duplicateReferences": true
+    },
+    {
+      "url": "/images/materials.webp",
+      "source": "Retained legacy asset; currently unused",
+      "usage": [
+        {
+          "role": "local asset",
+          "alt": "",
+          "loading": "review usage"
+        }
+      ],
+      "references": [],
+      "width": 900,
+      "height": 600,
+      "aspectRatio": 1.5,
+      "bytes": 157928,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/images/packaging.webp",
+      "source": "Local illustrative or editorial asset; not evidence of company facilities or a product model",
+      "usage": [
+        {
+          "role": "service",
+          "slug": "branding-packaging",
+          "alt": "Packaging materials",
+          "loading": "eager on service page"
+        }
+      ],
+      "references": [
+        {
+          "file": "src/data.js",
+          "line": 34
+        },
+        {
+          "file": "src/styles.css",
+          "line": 12
+        }
+      ],
+      "width": 900,
+      "height": 600,
+      "aspectRatio": 1.5,
+      "bytes": 107438,
+      "duplicateReferences": true
+    },
+    {
+      "url": "/images/pouch.webp",
+      "source": "Retained legacy asset; currently unused",
+      "usage": [
+        {
+          "role": "local asset",
+          "alt": "",
+          "loading": "review usage"
+        }
+      ],
+      "references": [],
+      "width": 900,
+      "height": 900,
+      "aspectRatio": 1,
+      "bytes": 23244,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/images/promo.jpg",
+      "source": "Retained legacy asset; currently unused",
+      "usage": [
+        {
+          "role": "local asset",
+          "alt": "",
+          "loading": "review usage"
+        }
+      ],
+      "references": [],
+      "width": 1223,
+      "height": 1286,
+      "aspectRatio": 0.951,
+      "bytes": 357834,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/images/testimonial-illustrative.jpg",
+      "source": "Retained legacy asset; currently unused",
+      "usage": [
+        {
+          "role": "local asset",
+          "alt": "",
+          "loading": "review usage"
+        }
+      ],
+      "references": [],
+      "width": 512,
+      "height": 512,
+      "aspectRatio": 1,
+      "bytes": 54246,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/images/tote.webp",
+      "source": "Retained legacy asset; currently unused",
+      "usage": [
+        {
+          "role": "local asset",
+          "alt": "",
+          "loading": "review usage"
+        }
+      ],
+      "references": [],
+      "width": 900,
+      "height": 900,
+      "aspectRatio": 1,
+      "bytes": 43078,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250401.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250401",
+          "category": "sports",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250401-01.webp",
+          "alt": "Compact Utility Bag (JSD-250401)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 41484,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250402.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250402",
+          "category": "sports",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250402-01.webp",
+          "alt": "Black Roll-Top Bicycle Bag (JSD-250402)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 35293,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250403.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250403",
+          "category": "sports",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250403-01.webp",
+          "alt": "Blue Zip Bicycle Bag (JSD-250403)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 37506,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250404.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250404",
+          "category": "sports",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250404-01.webp",
+          "alt": "Slim Black Frame Bag (JSD-250404)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 35756,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250405.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250405",
+          "category": "sports",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250405-01.webp",
+          "alt": "Black Barrel Sling Bag (JSD-250405)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 55495,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250406.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250406",
+          "category": "sports",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250406-01.webp",
+          "alt": "Camouflage Roll Bag (JSD-250406)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 33700,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250407.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250407",
+          "category": "sports",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250407-01.webp",
+          "alt": "Neon Yellow Carry Pack (JSD-250407)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 34673,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250408.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250408",
+          "category": "sports",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250408-01.webp",
+          "alt": "Olive Utility Bag (JSD-250408)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 44730,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250409.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250409",
+          "category": "pet",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250409-01.webp",
+          "alt": "Pet Carry Harness (JSD-250409)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 52263,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250410.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250410",
+          "category": "sports",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250410-01.webp",
+          "alt": "Black Crossbody Utility Bag (JSD-250410)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 34943,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250411.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250411",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250411-01.webp",
+          "alt": "Blue School Bag (JSD-250411)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 48980,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250412.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250412",
+          "category": "sports",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250412-01.webp",
+          "alt": "Black Zip Bicycle Bag (JSD-250412)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 42506,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250413.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250413",
+          "category": "sports",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250413-01.webp",
+          "alt": "Black Fold-Out Bicycle Bag (JSD-250413)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 63658,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250414.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250414",
+          "category": "sports",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250414-01.webp",
+          "alt": "Compact Black Utility Bag (JSD-250414)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 39121,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250415.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250415",
+          "category": "sports",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250415-01.webp",
+          "alt": "Black Multi-Pocket Sling Bag (JSD-250415)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 50710,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250416.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250416",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250416-01.webp",
+          "alt": "Mint Quilted Backpack (JSD-250416)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 37447,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250417.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250417",
+          "category": "sports",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250417-01.webp",
+          "alt": "Black Flap Utility Bag (JSD-250417)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 73553,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250418.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250418",
+          "category": "sports",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250418-01.webp",
+          "alt": "Zip Waist Bag (JSD-250418)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 45404,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250419.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250419",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250419-01.webp",
+          "alt": "Olive Front-Pocket Backpack (JSD-250419)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 49952,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250420.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250420",
+          "category": "sports",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250420-01.webp",
+          "alt": "Olive Barrel Bag (JSD-250420)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 56629,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250421.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250421",
+          "category": "briefcase",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250421-01.webp",
+          "alt": "Olive Document Bag (JSD-250421)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 76878,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250422.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250422",
+          "category": "sports",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250422-01.webp",
+          "alt": "Neon Yellow Waist Bag (JSD-250422)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 30933,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250423.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250423",
+          "category": "sports",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250423-01.webp",
+          "alt": "Orange Utility Waist Bag (JSD-250423)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 66914,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/jsd-250424.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "JSD-250424",
+          "category": "sports",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250424-01.webp",
+          "alt": "Pink Patterned Waist Bag (JSD-250424)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 38588,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-250601.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-250601",
+          "category": "pouch",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250601-01.webp",
+          "alt": "Pastel Boxy Crossbody Bag (MH-250601)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 25109,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506010.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506010",
+          "category": "pouch",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506010-01.webp",
+          "alt": "Gray Top-Handle Shoulder Bag (MH-2506010)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 44284,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506011.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506011",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506011-01.webp",
+          "alt": "Orange Front-Pocket Backpack (MH-2506011)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 23932,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506012.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506012",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506012-01.webp",
+          "alt": "Off-White Zip Backpack (MH-2506012)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 18749,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506013.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506013",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506013-01.webp",
+          "alt": "Two-tone Backpack (MH-2506013)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 47979,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506014.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506014",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506014-01.webp",
+          "alt": "Green Panel Backpack (MH-2506014)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 37715,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506015.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506015",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506015-01.webp",
+          "alt": "Blue Multi-Pocket Backpack (MH-2506015)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 42642,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506016.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506016",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506016-01.webp",
+          "alt": "Silver Panel Backpack (MH-2506016)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 43329,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506017.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506017",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506017-01.webp",
+          "alt": "Black Corded Backpack (MH-2506017)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 38496,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506018.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506018",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506018-01.webp",
+          "alt": "Floral Front-Pocket Backpack (MH-2506018)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 74097,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506019.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506019",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506019-01.webp",
+          "alt": "Purple Patterned Backpack (MH-2506019)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 83909,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-250602.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-250602",
+          "category": "pouch",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250602-01.webp",
+          "alt": "Pastel Double-Zip Pouch (MH-250602)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 46293,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506020.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506020",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506020-01.webp",
+          "alt": "Purple Contrast-Trim Backpack (MH-2506020)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 36645,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506021.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506021",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506021-01.webp",
+          "alt": "Blue Diagonal-Panel Backpack (MH-2506021)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 708,
+      "aspectRatio": 0.904,
+      "bytes": 29389,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506022.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506022",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506022-01.webp",
+          "alt": "Black and White Panel Backpack (MH-2506022)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 43416,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506023.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506023",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506023-01.webp",
+          "alt": "Olive Strap Backpack (MH-2506023)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 60485,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506024.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506024",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506024-01.webp",
+          "alt": "Taupe Vertical-Zip Backpack (MH-2506024)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 50509,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506025.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506025",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506025-01.webp",
+          "alt": "Purple Multi-Zip Backpack (MH-2506025)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 31866,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506026.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506026",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506026-01.webp",
+          "alt": "Buckle-Flap Backpack (MH-2506026)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 21821,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506028.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506028",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506028-01.webp",
+          "alt": "Tan Flap-Pocket Backpack (MH-2506028)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 36714,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506029.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506029",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506029-01.webp",
+          "alt": "Gray Front-Pocket Backpack (MH-2506029)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 55920,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506030.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506030",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506030-01.webp",
+          "alt": "Blue Panel Backpack (MH-2506030)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 37546,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506031.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506031",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506031-01.webp",
+          "alt": "Gray Neon-Trim Backpack (MH-2506031)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 38994,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506032.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506032",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506032-01.webp",
+          "alt": "Gray Stripe Backpack (MH-2506032)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 55804,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-2506033.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-2506033",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506033-01.webp",
+          "alt": "Black Front-Pocket Backpack (MH-2506033)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 18607,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-250605-1.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-250605-1",
+          "category": "pouch",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250605-1-01.webp",
+          "alt": "Burgundy Zip Crossbody Bag (MH-250605-1)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 49497,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-250606.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-250606",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250606-01.webp",
+          "alt": "Red Front-Pocket Backpack (MH-250606)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 25866,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-250607.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-250607",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250607-01.webp",
+          "alt": "Gray Patterned Backpack (MH-250607)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 60367,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-250608.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-250608",
+          "category": "backpack",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250608-01.webp",
+          "alt": "Rose Flap Backpack (MH-250608)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 40436,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/mh-250609.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "MH-250609",
+          "category": "tote",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250609-01.webp",
+          "alt": "Burgundy Top-Handle Tote (MH-250609)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 28995,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/wa-250601.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "WA-250601",
+          "category": "smallgoods",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-250601-01.webp",
+          "alt": "Classic Colorway Zip Wallet (WA-250601)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 38014,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/wa-2506012.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "WA-2506012",
+          "category": "smallgoods",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506012-01.webp",
+          "alt": "Brown Zip Wallet (WA-2506012)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 56987,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/wa-2506013.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "WA-2506013",
+          "category": "smallgoods",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506013-01.webp",
+          "alt": "Blue Denim ID Wristlet (WA-2506013)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 57491,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/wa-2506014.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "WA-2506014",
+          "category": "smallgoods",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506014-01.webp",
+          "alt": "Blue Wristlet Pouch (WA-2506014)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 49019,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/wa-2506016.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "WA-2506016",
+          "category": "smallgoods",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506016-01.webp",
+          "alt": "Black Loop Wristlet Pouch (WA-2506016)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 30351,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/wa-2506017.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "WA-2506017",
+          "category": "smallgoods",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506017-01.webp",
+          "alt": "Black Half-Moon Coin Pouch (WA-2506017)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 51569,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/wa-2506018.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "WA-2506018",
+          "category": "smallgoods",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506018-01.webp",
+          "alt": "Brown Long Flap Wallet (WA-2506018)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 42540,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/wa-2506019.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "WA-2506019",
+          "category": "smallgoods",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506019-01.webp",
+          "alt": "Pink Long Wallet (WA-2506019)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 27916,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/wa-250602.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "WA-250602",
+          "category": "smallgoods",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-250602-01.webp",
+          "alt": "Gray Panel Zip Wallet (WA-250602)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 43720,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/wa-2506020.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "WA-2506020",
+          "category": "smallgoods",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506020-01.webp",
+          "alt": "Patterned Zip Wallet (WA-2506020)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 65970,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/wa-2506021.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "WA-2506021",
+          "category": "smallgoods",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506021-01.webp",
+          "alt": "Color-block Zip Wallet (WA-2506021)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 26919,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/wa-2506023.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "WA-2506023",
+          "category": "smallgoods",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506023-01.webp",
+          "alt": "Gray Long Tab Wallet (WA-2506023)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 32526,
+      "duplicateReferences": false
+    },
+    {
+      "url": "/product-thumbs/wa-2506026.avif",
+      "source": "640px static AVIF card derivative of the linked original product photograph",
+      "usage": [
+        {
+          "role": "catalog card derivative",
+          "sku": "WA-2506026",
+          "category": "smallgoods",
+          "original": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506026-01.webp",
+          "alt": "Mauve Envelope Wallet (WA-2506026)",
+          "loading": "lazy"
+        }
+      ],
+      "references": [],
+      "width": 640,
+      "height": 640,
+      "aspectRatio": 1,
+      "bytes": 39108,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250401-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250401",
+          "category": "sports",
+          "view": 1,
+          "alt": "Compact Utility Bag (JSD-250401)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 129322,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250401-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250401",
+          "category": "sports",
+          "view": 2,
+          "alt": "Compact Utility Bag (JSD-250401)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 165896,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250402-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250402",
+          "category": "sports",
+          "view": 1,
+          "alt": "Black Roll-Top Bicycle Bag (JSD-250402)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 151908,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250402-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250402",
+          "category": "sports",
+          "view": 2,
+          "alt": "Black Roll-Top Bicycle Bag (JSD-250402)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 97838,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250403-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250403",
+          "category": "sports",
+          "view": 1,
+          "alt": "Blue Zip Bicycle Bag (JSD-250403)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 94800,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250403-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250403",
+          "category": "sports",
+          "view": 2,
+          "alt": "Blue Zip Bicycle Bag (JSD-250403)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 92472,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250404-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250404",
+          "category": "sports",
+          "view": 1,
+          "alt": "Slim Black Frame Bag (JSD-250404)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 130758,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250404-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250404",
+          "category": "sports",
+          "view": 2,
+          "alt": "Slim Black Frame Bag (JSD-250404)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 112488,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250405-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250405",
+          "category": "sports",
+          "view": 1,
+          "alt": "Black Barrel Sling Bag (JSD-250405)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 140984,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250405-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250405",
+          "category": "sports",
+          "view": 2,
+          "alt": "Black Barrel Sling Bag (JSD-250405)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 160448,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250406-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250406",
+          "category": "sports",
+          "view": 1,
+          "alt": "Camouflage Roll Bag (JSD-250406)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 115094,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250406-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250406",
+          "category": "sports",
+          "view": 2,
+          "alt": "Camouflage Roll Bag (JSD-250406)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 178688,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250407-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250407",
+          "category": "sports",
+          "view": 1,
+          "alt": "Neon Yellow Carry Pack (JSD-250407)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 83648,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250407-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250407",
+          "category": "sports",
+          "view": 2,
+          "alt": "Neon Yellow Carry Pack (JSD-250407)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 205878,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250408-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250408",
+          "category": "sports",
+          "view": 1,
+          "alt": "Olive Utility Bag (JSD-250408)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 162066,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250408-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250408",
+          "category": "sports",
+          "view": 2,
+          "alt": "Olive Utility Bag (JSD-250408)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 207978,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250409-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250409",
+          "category": "pet",
+          "view": 1,
+          "alt": "Pet Carry Harness (JSD-250409)",
+          "loading": "eager on detail; lazy in grids"
+        },
+        {
+          "role": "category",
+          "slug": "pet",
+          "alt": "Pet Carry Accessories reference model",
+          "loading": "lazy on index; eager on category page"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 154650,
+      "duplicateReferences": true
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250409-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250409",
+          "category": "pet",
+          "view": 2,
+          "alt": "Pet Carry Harness (JSD-250409)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 148854,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250410-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250410",
+          "category": "sports",
+          "view": 1,
+          "alt": "Black Crossbody Utility Bag (JSD-250410)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 151044,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250410-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250410",
+          "category": "sports",
+          "view": 2,
+          "alt": "Black Crossbody Utility Bag (JSD-250410)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 180668,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250411-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250411",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Blue School Bag (JSD-250411)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 200634,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250411-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250411",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Blue School Bag (JSD-250411)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 153112,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250412-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250412",
+          "category": "sports",
+          "view": 1,
+          "alt": "Black Zip Bicycle Bag (JSD-250412)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 122254,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250412-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250412",
+          "category": "sports",
+          "view": 2,
+          "alt": "Black Zip Bicycle Bag (JSD-250412)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 175900,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250413-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250413",
+          "category": "sports",
+          "view": 1,
+          "alt": "Black Fold-Out Bicycle Bag (JSD-250413)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 244528,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250413-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250413",
+          "category": "sports",
+          "view": 2,
+          "alt": "Black Fold-Out Bicycle Bag (JSD-250413)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 262964,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250414-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250414",
+          "category": "sports",
+          "view": 1,
+          "alt": "Compact Black Utility Bag (JSD-250414)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 148734,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250414-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250414",
+          "category": "sports",
+          "view": 2,
+          "alt": "Compact Black Utility Bag (JSD-250414)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 119264,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250415-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250415",
+          "category": "sports",
+          "view": 1,
+          "alt": "Black Multi-Pocket Sling Bag (JSD-250415)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 165454,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250415-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250415",
+          "category": "sports",
+          "view": 2,
+          "alt": "Black Multi-Pocket Sling Bag (JSD-250415)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 185524,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250416-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250416",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Mint Quilted Backpack (JSD-250416)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 96016,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250416-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250416",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Mint Quilted Backpack (JSD-250416)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 92546,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250417-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250417",
+          "category": "sports",
+          "view": 1,
+          "alt": "Black Flap Utility Bag (JSD-250417)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 258620,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250417-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250417",
+          "category": "sports",
+          "view": 2,
+          "alt": "Black Flap Utility Bag (JSD-250417)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 232400,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250418-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250418",
+          "category": "sports",
+          "view": 1,
+          "alt": "Zip Waist Bag (JSD-250418)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 178750,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250418-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250418",
+          "category": "sports",
+          "view": 2,
+          "alt": "Zip Waist Bag (JSD-250418)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 137362,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250419-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250419",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Olive Front-Pocket Backpack (JSD-250419)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 228522,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250419-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250419",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Olive Front-Pocket Backpack (JSD-250419)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 257834,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250420-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250420",
+          "category": "sports",
+          "view": 1,
+          "alt": "Olive Barrel Bag (JSD-250420)",
+          "loading": "eager on detail; lazy in grids"
+        },
+        {
+          "role": "category",
+          "slug": "sports",
+          "alt": "Sports & Cycling Bags reference model",
+          "loading": "lazy on index; eager on category page"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 195018,
+      "duplicateReferences": true
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250420-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250420",
+          "category": "sports",
+          "view": 2,
+          "alt": "Olive Barrel Bag (JSD-250420)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 176176,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250421-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250421",
+          "category": "briefcase",
+          "view": 1,
+          "alt": "Olive Document Bag (JSD-250421)",
+          "loading": "eager on detail; lazy in grids"
+        },
+        {
+          "role": "category",
+          "slug": "briefcase",
+          "alt": "Document Bags reference model",
+          "loading": "lazy on index; eager on category page"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 310938,
+      "duplicateReferences": true
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250421-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250421",
+          "category": "briefcase",
+          "view": 2,
+          "alt": "Olive Document Bag (JSD-250421)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 330446,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250422-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250422",
+          "category": "sports",
+          "view": 1,
+          "alt": "Neon Yellow Waist Bag (JSD-250422)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 114646,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250422-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250422",
+          "category": "sports",
+          "view": 2,
+          "alt": "Neon Yellow Waist Bag (JSD-250422)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 122078,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250423-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250423",
+          "category": "sports",
+          "view": 1,
+          "alt": "Orange Utility Waist Bag (JSD-250423)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 223222,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250423-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250423",
+          "category": "sports",
+          "view": 2,
+          "alt": "Orange Utility Waist Bag (JSD-250423)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 218204,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250424-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250424",
+          "category": "sports",
+          "view": 1,
+          "alt": "Pink Patterned Waist Bag (JSD-250424)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 113932,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/JSD-250424-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "JSD-250424",
+          "category": "sports",
+          "view": 2,
+          "alt": "Pink Patterned Waist Bag (JSD-250424)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 133482,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250601-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-250601",
+          "category": "pouch",
+          "view": 1,
+          "alt": "Pastel Boxy Crossbody Bag (MH-250601)",
+          "loading": "eager on detail; lazy in grids"
+        },
+        {
+          "role": "category",
+          "slug": "pouch",
+          "alt": "Small Bags & Pouches reference model",
+          "loading": "lazy on index; eager on category page"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 129236,
+      "duplicateReferences": true
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250601-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-250601",
+          "category": "pouch",
+          "view": 2,
+          "alt": "Pastel Boxy Crossbody Bag (MH-250601)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 87496,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250601-03.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-250601",
+          "category": "pouch",
+          "view": 3,
+          "alt": "Pastel Boxy Crossbody Bag (MH-250601)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 86374,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506010-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506010",
+          "category": "pouch",
+          "view": 1,
+          "alt": "Gray Top-Handle Shoulder Bag (MH-2506010)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 133464,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506010-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506010",
+          "category": "pouch",
+          "view": 2,
+          "alt": "Gray Top-Handle Shoulder Bag (MH-2506010)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 97056,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506011-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506011",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Orange Front-Pocket Backpack (MH-2506011)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 100722,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506011-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506011",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Orange Front-Pocket Backpack (MH-2506011)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 112966,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506012-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506012",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Off-White Zip Backpack (MH-2506012)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 92456,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506012-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506012",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Off-White Zip Backpack (MH-2506012)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 84042,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506013-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506013",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Two-tone Backpack (MH-2506013)",
+          "loading": "eager on detail; lazy in grids"
+        },
+        {
+          "role": "category",
+          "slug": "backpack",
+          "alt": "Backpacks reference model",
+          "loading": "lazy on index; eager on category page"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 161744,
+      "duplicateReferences": true
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506013-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506013",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Two-tone Backpack (MH-2506013)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 167262,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506014-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506014",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Green Panel Backpack (MH-2506014)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 179272,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506014-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506014",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Green Panel Backpack (MH-2506014)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 104706,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506015-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506015",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Blue Multi-Pocket Backpack (MH-2506015)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 198426,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506015-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506015",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Blue Multi-Pocket Backpack (MH-2506015)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 245724,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506016-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506016",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Silver Panel Backpack (MH-2506016)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 146204,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506016-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506016",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Silver Panel Backpack (MH-2506016)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 164206,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506017-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506017",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Black Corded Backpack (MH-2506017)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 150070,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506017-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506017",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Black Corded Backpack (MH-2506017)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 98228,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506018-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506018",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Floral Front-Pocket Backpack (MH-2506018)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 196964,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506018-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506018",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Floral Front-Pocket Backpack (MH-2506018)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 172572,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506019-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506019",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Purple Patterned Backpack (MH-2506019)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 214348,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506019-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506019",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Purple Patterned Backpack (MH-2506019)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 173886,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250602-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-250602",
+          "category": "pouch",
+          "view": 1,
+          "alt": "Pastel Double-Zip Pouch (MH-250602)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 173634,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250602-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-250602",
+          "category": "pouch",
+          "view": 2,
+          "alt": "Pastel Double-Zip Pouch (MH-250602)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 172204,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250602-03.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-250602",
+          "category": "pouch",
+          "view": 3,
+          "alt": "Pastel Double-Zip Pouch (MH-250602)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 114036,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506020-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506020",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Purple Contrast-Trim Backpack (MH-2506020)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 176290,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506020-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506020",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Purple Contrast-Trim Backpack (MH-2506020)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 136796,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506021-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506021",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Blue Diagonal-Panel Backpack (MH-2506021)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1192,
+      "height": 1320,
+      "aspectRatio": 0.903,
+      "bytes": 181678,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506021-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506021",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Blue Diagonal-Panel Backpack (MH-2506021)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 161958,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506022-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506022",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Black and White Panel Backpack (MH-2506022)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 136464,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506022-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506022",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Black and White Panel Backpack (MH-2506022)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 183832,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506023-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506023",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Olive Strap Backpack (MH-2506023)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 256636,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506023-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506023",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Olive Strap Backpack (MH-2506023)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 146232,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506024-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506024",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Taupe Vertical-Zip Backpack (MH-2506024)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 167234,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506024-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506024",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Taupe Vertical-Zip Backpack (MH-2506024)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 159916,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506025-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506025",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Purple Multi-Zip Backpack (MH-2506025)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 162214,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506025-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506025",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Purple Multi-Zip Backpack (MH-2506025)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 126648,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506026-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506026",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Buckle-Flap Backpack (MH-2506026)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 94654,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506026-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506026",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Buckle-Flap Backpack (MH-2506026)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 126824,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506026-03.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506026",
+          "category": "backpack",
+          "view": 3,
+          "alt": "Buckle-Flap Backpack (MH-2506026)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 94530,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506028-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506028",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Tan Flap-Pocket Backpack (MH-2506028)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 136868,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506028-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506028",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Tan Flap-Pocket Backpack (MH-2506028)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 187972,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506029-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506029",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Gray Front-Pocket Backpack (MH-2506029)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 168004,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506029-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506029",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Gray Front-Pocket Backpack (MH-2506029)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 179626,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506030-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506030",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Blue Panel Backpack (MH-2506030)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 183184,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506030-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506030",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Blue Panel Backpack (MH-2506030)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 140104,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506031-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506031",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Gray Neon-Trim Backpack (MH-2506031)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 135296,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506031-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506031",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Gray Neon-Trim Backpack (MH-2506031)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 137312,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506032-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506032",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Gray Stripe Backpack (MH-2506032)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 207960,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506032-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506032",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Gray Stripe Backpack (MH-2506032)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 152500,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506033-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506033",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Black Front-Pocket Backpack (MH-2506033)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 70602,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-2506033-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-2506033",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Black Front-Pocket Backpack (MH-2506033)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 178552,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250605-1-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-250605-1",
+          "category": "pouch",
+          "view": 1,
+          "alt": "Burgundy Zip Crossbody Bag (MH-250605-1)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 178444,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250605-1-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-250605-1",
+          "category": "pouch",
+          "view": 2,
+          "alt": "Burgundy Zip Crossbody Bag (MH-250605-1)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 182356,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250605-1-03.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-250605-1",
+          "category": "pouch",
+          "view": 3,
+          "alt": "Burgundy Zip Crossbody Bag (MH-250605-1)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 130008,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250606-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-250606",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Red Front-Pocket Backpack (MH-250606)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 126832,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250606-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-250606",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Red Front-Pocket Backpack (MH-250606)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 154586,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250607-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-250607",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Gray Patterned Backpack (MH-250607)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 188068,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250607-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-250607",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Gray Patterned Backpack (MH-250607)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 186510,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250608-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-250608",
+          "category": "backpack",
+          "view": 1,
+          "alt": "Rose Flap Backpack (MH-250608)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 132966,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250608-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-250608",
+          "category": "backpack",
+          "view": 2,
+          "alt": "Rose Flap Backpack (MH-250608)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 124288,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/MH-250609-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "MH-250609",
+          "category": "tote",
+          "view": 1,
+          "alt": "Burgundy Top-Handle Tote (MH-250609)",
+          "loading": "eager on detail; lazy in grids"
+        },
+        {
+          "role": "category",
+          "slug": "tote",
+          "alt": "Tote Bags reference model",
+          "loading": "lazy on index; eager on category page"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 88262,
+      "duplicateReferences": true
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-250601-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-250601",
+          "category": "smallgoods",
+          "view": 1,
+          "alt": "Classic Colorway Zip Wallet (WA-250601)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 97310,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-250601-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-250601",
+          "category": "smallgoods",
+          "view": 2,
+          "alt": "Classic Colorway Zip Wallet (WA-250601)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 141030,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-250601-03.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-250601",
+          "category": "smallgoods",
+          "view": 3,
+          "alt": "Classic Colorway Zip Wallet (WA-250601)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 130226,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-250601-04.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-250601",
+          "category": "smallgoods",
+          "view": 4,
+          "alt": "Classic Colorway Zip Wallet (WA-250601)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 119844,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-250601-05.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-250601",
+          "category": "smallgoods",
+          "view": 5,
+          "alt": "Classic Colorway Zip Wallet (WA-250601)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 91924,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-250601-06.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-250601",
+          "category": "smallgoods",
+          "view": 6,
+          "alt": "Classic Colorway Zip Wallet (WA-250601)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 144108,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506012-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506012",
+          "category": "smallgoods",
+          "view": 1,
+          "alt": "Brown Zip Wallet (WA-2506012)",
+          "loading": "eager on detail; lazy in grids"
+        },
+        {
+          "role": "category",
+          "slug": "smallgoods",
+          "alt": "Wallets & Small Goods reference model",
+          "loading": "lazy on index; eager on category page"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 167002,
+      "duplicateReferences": true
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506012-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506012",
+          "category": "smallgoods",
+          "view": 2,
+          "alt": "Brown Zip Wallet (WA-2506012)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 104810,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506013-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506013",
+          "category": "smallgoods",
+          "view": 1,
+          "alt": "Blue Denim ID Wristlet (WA-2506013)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 179570,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506013-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506013",
+          "category": "smallgoods",
+          "view": 2,
+          "alt": "Blue Denim ID Wristlet (WA-2506013)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 116762,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506014-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506014",
+          "category": "smallgoods",
+          "view": 1,
+          "alt": "Blue Wristlet Pouch (WA-2506014)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 116726,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506014-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506014",
+          "category": "smallgoods",
+          "view": 2,
+          "alt": "Blue Wristlet Pouch (WA-2506014)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 107318,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506016-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506016",
+          "category": "smallgoods",
+          "view": 1,
+          "alt": "Black Loop Wristlet Pouch (WA-2506016)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 115674,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506016-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506016",
+          "category": "smallgoods",
+          "view": 2,
+          "alt": "Black Loop Wristlet Pouch (WA-2506016)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 80154,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506017-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506017",
+          "category": "smallgoods",
+          "view": 1,
+          "alt": "Black Half-Moon Coin Pouch (WA-2506017)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 123916,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506017-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506017",
+          "category": "smallgoods",
+          "view": 2,
+          "alt": "Black Half-Moon Coin Pouch (WA-2506017)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 136310,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506018-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506018",
+          "category": "smallgoods",
+          "view": 1,
+          "alt": "Brown Long Flap Wallet (WA-2506018)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 118514,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506018-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506018",
+          "category": "smallgoods",
+          "view": 2,
+          "alt": "Brown Long Flap Wallet (WA-2506018)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 198338,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506019-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506019",
+          "category": "smallgoods",
+          "view": 1,
+          "alt": "Pink Long Wallet (WA-2506019)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 83790,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506019-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506019",
+          "category": "smallgoods",
+          "view": 2,
+          "alt": "Pink Long Wallet (WA-2506019)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 87614,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-250602-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-250602",
+          "category": "smallgoods",
+          "view": 1,
+          "alt": "Gray Panel Zip Wallet (WA-250602)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 142040,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-250602-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-250602",
+          "category": "smallgoods",
+          "view": 2,
+          "alt": "Gray Panel Zip Wallet (WA-250602)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 112496,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506020-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506020",
+          "category": "smallgoods",
+          "view": 1,
+          "alt": "Patterned Zip Wallet (WA-2506020)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 167896,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506020-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506020",
+          "category": "smallgoods",
+          "view": 2,
+          "alt": "Patterned Zip Wallet (WA-2506020)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 122128,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506020-03.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506020",
+          "category": "smallgoods",
+          "view": 3,
+          "alt": "Patterned Zip Wallet (WA-2506020)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 130600,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506020-04.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506020",
+          "category": "smallgoods",
+          "view": 4,
+          "alt": "Patterned Zip Wallet (WA-2506020)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 159028,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506021-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506021",
+          "category": "smallgoods",
+          "view": 1,
+          "alt": "Color-block Zip Wallet (WA-2506021)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 85442,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506021-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506021",
+          "category": "smallgoods",
+          "view": 2,
+          "alt": "Color-block Zip Wallet (WA-2506021)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 144792,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506023-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506023",
+          "category": "smallgoods",
+          "view": 1,
+          "alt": "Gray Long Tab Wallet (WA-2506023)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 97346,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506023-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506023",
+          "category": "smallgoods",
+          "view": 2,
+          "alt": "Gray Long Tab Wallet (WA-2506023)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 180106,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506026-01.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506026",
+          "category": "smallgoods",
+          "view": 1,
+          "alt": "Mauve Envelope Wallet (WA-2506026)",
+          "loading": "eager on detail; lazy in grids"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 103226,
+      "duplicateReferences": false
+    },
+    {
+      "url": "https://ugxxaokbqkajqkgxdngz.supabase.co/storage/v1/object/public/stardots-bags/WA-2506026-02.webp",
+      "source": "Existing public STARDOTS product archive",
+      "usage": [
+        {
+          "role": "product gallery",
+          "sku": "WA-2506026",
+          "category": "smallgoods",
+          "view": 2,
+          "alt": "Mauve Envelope Wallet (WA-2506026)",
+          "loading": "lazy thumbnail"
+        }
+      ],
+      "status": 200,
+      "contentType": "image/webp",
+      "width": 1254,
+      "height": 1254,
+      "aspectRatio": 1,
+      "bytes": 195066,
+      "duplicateReferences": false
+    }
+  ]
+}

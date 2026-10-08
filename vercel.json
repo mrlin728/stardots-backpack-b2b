@@ -1,0 +1,252 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/oem",
+      "destination": "/services/oem-odm",
+      "permanent": true
+    },
+    {
+      "source": "/capabilities",
+      "destination": "/services",
+      "permanent": true
+    },
+    {
+      "source": "/capabilities/materials",
+      "destination": "/services/sourcing",
+      "permanent": true
+    },
+    {
+      "source": "/capabilities/logo-techniques",
+      "destination": "/services/branding-packaging",
+      "permanent": true
+    },
+    {
+      "source": "/capabilities/hardware",
+      "destination": "/services/oem-odm",
+      "permanent": true
+    },
+    {
+      "source": "/capabilities/packaging",
+      "destination": "/services/branding-packaging",
+      "permanent": true
+    },
+    {
+      "source": "/capabilities/private-label",
+      "destination": "/services/branding-packaging",
+      "permanent": true
+    },
+    {
+      "source": "/factory",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/quality",
+      "destination": "/services/quality-control",
+      "permanent": true
+    },
+    {
+      "source": "/sustainability",
+      "destination": "/services/sourcing",
+      "permanent": true
+    },
+    {
+      "source": "/products/duffel",
+      "destination": "/products/sports",
+      "permanent": true
+    },
+    {
+      "source": "/products/custom",
+      "destination": "/services/oem-odm",
+      "permanent": true
+    },
+    {
+      "source": "/products/backpacks",
+      "destination": "/products/backpack",
+      "permanent": true
+    },
+    {
+      "source": "/products/tote-bags",
+      "destination": "/products/tote",
+      "permanent": true
+    },
+    {
+      "source": "/products/handbags",
+      "destination": "/products/pouch",
+      "permanent": true
+    },
+    {
+      "source": "/products/travel-duffel-bags",
+      "destination": "/products/sports",
+      "permanent": true
+    },
+    {
+      "source": "/products/laptop-bags",
+      "destination": "/products/briefcase",
+      "permanent": true
+    },
+    {
+      "source": "/products/cosmetic-bags",
+      "destination": "/products/pouch",
+      "permanent": true
+    },
+    {
+      "source": "/products/promotional-bags",
+      "destination": "/services/branding-packaging",
+      "permanent": true
+    },
+    {
+      "source": "/zh/oem",
+      "destination": "/zh/services/oem-odm",
+      "permanent": true
+    },
+    {
+      "source": "/zh/capabilities",
+      "destination": "/zh/services",
+      "permanent": true
+    },
+    {
+      "source": "/zh/capabilities/materials",
+      "destination": "/zh/services/sourcing",
+      "permanent": true
+    },
+    {
+      "source": "/zh/capabilities/logo-techniques",
+      "destination": "/zh/services/branding-packaging",
+      "permanent": true
+    },
+    {
+      "source": "/zh/capabilities/hardware",
+      "destination": "/zh/services/oem-odm",
+      "permanent": true
+    },
+    {
+      "source": "/zh/capabilities/packaging",
+      "destination": "/zh/services/branding-packaging",
+      "permanent": true
+    },
+    {
+      "source": "/zh/capabilities/private-label",
+      "destination": "/zh/services/branding-packaging",
+      "permanent": true
+    },
+    {
+      "source": "/zh/factory",
+      "destination": "/zh/about",
+      "permanent": true
+    },
+    {
+      "source": "/zh/quality",
+      "destination": "/zh/services/quality-control",
+      "permanent": true
+    },
+    {
+      "source": "/zh/sustainability",
+      "destination": "/zh/services/sourcing",
+      "permanent": true
+    },
+    {
+      "source": "/zh/products/duffel",
+      "destination": "/zh/products/sports",
+      "permanent": true
+    },
+    {
+      "source": "/zh/products/custom",
+      "destination": "/zh/services/oem-odm",
+      "permanent": true
+    },
+    {
+      "source": "/zh/products/backpacks",
+      "destination": "/zh/products/backpack",
+      "permanent": true
+    },
+    {
+      "source": "/zh/products/tote-bags",
+      "destination": "/zh/products/tote",
+      "permanent": true
+    },
+    {
+      "source": "/zh/products/handbags",
+      "destination": "/zh/products/pouch",
+      "permanent": true
+    },
+    {
+      "source": "/zh/products/travel-duffel-bags",
+      "destination": "/zh/products/sports",
+      "permanent": true
+    },
+    {
+      "source": "/zh/products/laptop-bags",
+      "destination": "/zh/products/briefcase",
+      "permanent": true
+    },
+    {
+      "source": "/zh/products/cosmetic-bags",
+      "destination": "/zh/products/pouch",
+      "permanent": true
+    },
+    {
+      "source": "/zh/products/promotional-bags",
+      "destination": "/zh/services/branding-packaging",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/content-preview",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "no-referrer"
+        }
+      ]
+    },
+    {
+      "source": "/zh/content-preview",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "no-referrer"
+        }
+      ]
+    },
+    {
+      "source": "/api/content-preview",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "no-referrer"
+        }
+      ]
+    }
+  ]
+}

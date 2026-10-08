@@ -1,0 +1,10 @@
+node_modules/
+dist/
+data/*.jsonl
+
+# Private CMS migration backups and local task artifacts
+/private-backups/
+/.content-private/
+
+/src/generated/content-*.json
+/public/content-version.json
