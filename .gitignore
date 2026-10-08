@@ -8,3 +8,5 @@ data/*.jsonl
 
 /src/generated/content-*.json
 /public/content-version.json
+.vercel
+.env*
