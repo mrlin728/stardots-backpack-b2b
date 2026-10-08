@@ -7,6 +7,7 @@ import {
   ClipboardList, Clock3, FileText, Gem, Globe2, Handshake, Headphones,
   Layers3, Mail, MapPin, Menu, Package, PenLine, Phone, Search, Send,
   Settings2, ShieldCheck, ShoppingBag, Truck, UsersRound, X,
+  Sparkles, Cpu, Award, Zap, Activity, CheckCircle2, ChevronRight, Copy, ExternalLink, Sliders, Scissors, Factory,
 } from 'lucide-react';
 import { getSiteData } from './data.js';
 import { getLocale, basePath, localHref, t } from './locale.js';
@@ -96,7 +97,7 @@ function Header() {
   }, [open]);
   return <>
     <div className="utility"><div className="container utility-inner">
-      <span>{getLocale() === 'zh' ? '箱包参考系列与定制开发' : 'REFERENCE COLLECTIONS & CUSTOM DEVELOPMENT'}</span>
+      <span>{getLocale() === 'zh' ? '晋江专业箱包制造实体工厂 · OEM/ODM 快速打样与大货出口' : 'JINJIANG TECHNICAL BACKPACK MANUFACTURER · OEM/ODM · RAPID SAMPLING'}</span>
       <div className="utility-right">
         <span><MapPin size={13} /> {t('ui.jinjiangChina')}</span>
         <a href={`mailto:${COMPANY.email}`}><Mail size={13} /> {COMPANY.email}</a>
@@ -105,7 +106,7 @@ function Header() {
       </div>
     </div></div>
     <header className="site-header"><div className="container header-inner">
-      <a href={localHref('/')} className="wordmark" aria-label={t('ui.stardotsHome')}><strong>STARDOTS</strong><small>BAGS / {getLocale() === 'zh' ? '携行新可能' : 'CARRY POSSIBILITY'}</small></a>
+      <a href={localHref('/')} className="wordmark" aria-label={t('ui.stardotsHome')}><strong>STARDOTS</strong><small>{getLocale() === 'zh' ? '晋江智造 · 专业箱包定制出口' : 'TECHNICAL BACKPACK MFG · JINJIANG'}</small></a>
       <nav ref={menuRef} id="main-navigation" className={open ? 'main-nav is-open' : 'main-nav'} aria-label={t('ui.mainNavigation')}>
         {nav().map(([label, href]) => <a key={href} className={path === href || (href !== '/' && path.startsWith(href + '/')) ? 'active' : ''} href={localHref(href)}>{label}</a>)}
       </nav>
@@ -134,7 +135,15 @@ function Footer() {
 
 function BannerCTA() {
   const zh = getLocale() === 'zh';
-  return <section className="banner-cta"><div className="container"><span className="chapter-label">STARDOTS / {zh ? '下一程，由您定义' : 'THE NEXT CHAPTER IS YOURS'}</span><h2>{zh ? '想好下一款了吗？' : 'What will you carry next?'}</h2><div className="banner-actions"><a className="btn btn-dark" href={quoteHref(useCatalog())}>{zh ? '聊聊您的项目' : 'Start a conversation'} <ArrowRight size={20}/></a><p>{zh ? '从一个想法、一张草图或一个参考款式开始。' : 'Begin with an idea, a sketch, or a reference model.'}</p></div></div></section>;
+  return <section className="banner-cta" style={{ background: '#0f172a', color: '#ffffff', padding: '64px 0', borderTop: '1px solid #1e293b' }}><div className="container" style={{ textAlign: 'center', maxWidth: '780px', margin: '0 auto' }}>
+    <span className="badge-pill active" style={{ marginBottom: '14px' }}>STARDOTS / {zh ? '晋江智造 · 实体工厂' : 'JINJIANG DIRECT OEM/ODM'}</span>
+    <h2 style={{ fontSize: 'clamp(28px, 3.5vw, 44px)', fontWeight: '800', color: '#ffffff', margin: '0 0 16px' }}>{zh ? '准备好开启您的下一批专业背包订单了吗？' : 'Ready to Engineer Your Next Backpack Collection?'}</h2>
+    <p style={{ color: '#94a3b8', fontSize: '15px', lineHeight: '1.6', margin: '0 0 24px' }}>{zh ? '提供草图、样板或设计图纸，7-10天极速打样出板，24小时内出具FOB报价。' : 'Send your sketch, tech pack, or reference sample. Rapid 7-10 day sample turnaround and 24h FOB quote.'}</p>
+    <div style={{ display: 'flex', justifyContent: 'center', gap: '14px', flexWrap: 'wrap' }}>
+      <a className="btn btn-accent" href={quoteHref(useCatalog())} style={{ padding: '12px 24px' }}>{zh ? '申请样品与核算报价' : 'Request Sample & Quote'} <ArrowRight size={16}/></a>
+      <a className="btn btn-outline" href="https://wa.me/8613655977639" target="_blank" rel="noreferrer" style={{ background: '#1e293b', color: '#ffffff', borderColor: '#334155', padding: '12px 24px' }}><Send size={16}/> {zh ? 'WhatsApp 即时洽谈' : 'Chat via WhatsApp'}</a>
+    </div>
+  </div></section>;
 }
 
 function SectionHeading({ eyebrow, title, subtitle, href, link }) {
@@ -198,32 +207,806 @@ function ResponsibilityGuide() {
   return <section className="section responsibility-section"><div className="container"><SectionHeading eyebrow={t('ui.clearResponsibilities')} title={t('ui.knowWhatHappensNext')} subtitle={t('ui.useThisAsADiscussionGuideTheFinalScope')} /><div className="responsibility-table" role="region" aria-label={t('ui.projectResponsibilitiesScrollHorizontallyOnSmallScreens')} tabIndex="0"><table><caption className="sr-only">{t('ui.buyerInputStardotsCoordinationAndDecisionsToConfirmAt')}</caption><thead><tr><th scope="col">{t('ui.stage')}</th><th scope="col">{t('ui.youBring')}</th><th scope="col">{t('ui.weCoordinate')}</th><th scope="col">{t('ui.agreeTogether')}</th></tr></thead><tbody>{rows.map(row => <tr key={row[0]}><th scope="row">{row[0]}</th>{row.slice(1).map(cell => <td key={cell}>{cell}</td>)}</tr>)}</tbody></table></div><div className="brief-download"><div><h3>{t('ui.aPracticalBriefReadyToFillIn')}</h3><p>{t('ui.useOurTextTemplateToOrganizeYourRequirementsLeave')}</p></div><a className="btn btn-outline" href={getLocale() === 'zh' ? '/downloads/stardots-buyer-brief-zh.txt' : '/downloads/stardots-buyer-brief.txt'} download>{t('ui.downloadBuyerBrief')} <FileText size={17} /></a></div></div></section>;
 }
 
-function Home() {
-  const items = useCatalog();
-  const { categories, articles } = getSiteData(getLocale());
-  const zh = getLocale() === 'zh';
-  const copy = (en, cn) => zh ? cn : en;
-  const selected = ['MH-2506023', 'JSD-250407', 'WA-2506014'].map(sku => items.find(item => item.sku === sku)).filter(Boolean);
-  return <main id="main" className="home-page editorial-home">
-    <section className="carry-hero">
-      <div className="carry-intro"><div className="carry-kicker"><span>STARDOTS / {copy('BAG SOURCING', '箱包采购')}</span><span>{copy('CHINA → YOUR NEXT CHAPTER', '中国 → 您的下一程')}</span></div>
-        <h1>{copy('Carry what', '装载所想')}<br /><span>{copy('comes next.', '奔赴下一程。')}</span></h1>
-        <div className="carry-bottom"><p>{copy('A new collection begins with a point of view. Explore reference designs. Shape a bag around your buyer.', '每一组新产品，都从一个清晰的想法开始。探索参考款式，为您的客户构思下一款箱包。')}</p><a className="carry-circle" href={localHref('/products')} aria-label={copy('Explore the bag collection', '探索箱包系列')}><ArrowRight size={32} /></a></div>
-        <a className="carry-text-link" href={localHref('/products')}>{copy('EXPLORE THE COLLECTION', '探索参考系列')} <span>↗</span></a>
+function TechPackConfigurator() {
+  const zh = getLocale() === "zh";
+  const [silhouette, setSilhouette] = useState("tactical");
+  const [fabric, setFabric] = useState("cordura");
+  const [branding, setBranding] = useState("silicone");
+  const [volume, setVolume] = useState("1000");
+  const [attached, setAttached] = useState(false);
+
+  const silhouettes = {
+    tactical: {
+      name: zh ? "战术通勤 / EDC 双肩包" : "Tactical Commute / EDC Backpack",
+      spec: "25L · 48x32x18cm",
+      desc: zh ? "模块化织带、隐藏防盗电脑仓、加厚减震背负" : "MOLLE webbing, anti-theft laptop pocket, ergonomic EVA harness",
+    },
+    outdoor: {
+      name: zh ? "超轻户外 / 徒步登山包" : "Ultralight Outdoor Hiking Pack",
+      spec: "35L · 55x34x22cm",
+      desc: zh ? "外置登山杖挂点、水袋吸管口、透气网状背负系统" : "Trekking pole loops, hydration bladder port, suspended mesh airflow back",
+    },
+    urban: {
+      name: zh ? "城市极简 / 防震电脑包" : "Urban Minimalist Laptop Daypack",
+      spec: "20L · 45x30x15cm",
+      desc: zh ? "360°防震气囊隔层、磁吸开合前袋、行李箱拉杆套带" : "360° shockproof laptop sleeve, magnetic front flap, luggage trolley pass-through",
+    },
+    travel: {
+      name: zh ? "多功能模块化 / 旅行手提包" : "Modular Travel Duffel / Weekender",
+      spec: "45L · 58x36x24cm",
+      desc: zh ? "独立干湿分离与鞋仓、双肩背/单肩/手提三合一变换" : "Dedicated shoe compartment, wet/dry separation, 3-in-1 convertible harness",
+    },
+  };
+
+  const fabrics = {
+    cordura: {
+      name: "Cordura® 1000D Ballistic Nylon",
+      label: zh ? "考杜拉 1000D 军规高撕裂尼龙" : "Cordura® 1000D Ballistic Nylon",
+      badge: zh ? "抗撕裂 > 180N" : "Tear > 180N",
+    },
+    rpet: {
+      name: "GRS Recycled RPET 600D (Eco)",
+      label: zh ? "GRS 4.0 认证环保再生聚酯 (100% RPET)" : "GRS 4.0 Recycled RPET (100% Bottles)",
+      badge: zh ? "碳足迹减少 45%" : "-45% Carbon",
+    },
+    ripstop: {
+      name: "420D Diamond Ripstop DWR",
+      label: zh ? "420D 蜂巢抗撕裂格 + 双层PU防水涂层" : "420D Diamond Ripstop DWR + PU",
+      badge: zh ? "轻量高韧性" : "Ultralight Tough",
+    },
+    tpu: {
+      name: "TPU Seam-Sealed Lamination",
+      label: zh ? "全天候高频无缝全防水 TPU 复合面料" : "TPU High-Frequency Seamless Waterproof",
+      badge: zh ? "耐水压 > 10,000mm" : ">10,000mm H2O",
+    },
+  };
+
+  const brandings = {
+    silicone: {
+      name: zh ? "3D 立体微量注塑硅胶标" : "3D Micro-Injection Silicone",
+      badge: zh ? "高耐磨 / 不开裂" : "Zero Crack / UV Proof",
+    },
+    metal: {
+      name: zh ? "激光精雕锌合金铭牌" : "Laser-Etched Metal Plaque",
+      badge: zh ? "亚光黑 / 枪色拉丝" : "Matte Black / Gunmetal",
+    },
+    embroidery: {
+      name: zh ? "日产田岛高密立体刺绣" : "High-Density 3D Embroidery",
+      badge: zh ? "15色田岛绣花机" : "Tajima Precision",
+    },
+    leather: {
+      name: zh ? "热压凹凸烙印皮牌" : "Debossed PU / Genuine Leather",
+      badge: zh ? "经典烙印 / 烫金烫银" : "Heat Burnished / Foil",
+    },
+    reflective: {
+      name: zh ? "3M 高反光夜行热压标" : "3M Scotchlite™ Reflective Heat-Seal",
+      badge: zh ? "EN ISO 20471 认证" : "EN ISO 20471",
+    },
+  };
+
+  const volumes = {
+    "500": {
+      name: "500 - 1,000 Pcs",
+      label: zh ? "500 - 1,000 只 (小批试单 / 柔性试水)" : "500 - 1,000 pcs (Trial Run)",
+    },
+    "1000": {
+      name: "1,000 - 3,000 Pcs",
+      label: zh ? "1,000 - 3,000 只 (标准品牌大货推荐)" : "1,000 - 3,000 pcs (Standard Run)",
+    },
+    "5000": {
+      name: "5,000+ Pcs",
+      label: zh ? "5,000+ 只 (规模化定制 / 成本最优)" : "5,000+ pcs (Volume OEM / Best Cost)",
+    },
+  };
+
+  const selectedSil = silhouettes[silhouette];
+  const selectedFab = fabrics[fabric];
+  const selectedBrand = brandings[branding];
+  const selectedVol = volumes[volume];
+
+  const waText = encodeURIComponent(
+    `[STARDOTS Technical Backpack Inquiry]\n` +
+    `• Silhouette: ${selectedSil.name} (${selectedSil.spec})\n` +
+    `• Shell Fabric: ${selectedFab.name}\n` +
+    `• Logo Craft: ${selectedBrand.name}\n` +
+    `• Target Volume: ${selectedVol.name}\n` +
+    `• Estimated Turnaround: 7-10 Days Sample / 25-35 Days Bulk\n` +
+    `• FOB Port: Quanzhou / Xiamen, China\n` +
+    `Please share pricing and sample dispatch confirmation.`
+  );
+  const waUrl = `https://wa.me/8613655977639?text=${waText}`;
+
+  const handleAttachRfq = () => {
+    const briefNote = `[30s Tech Pack Specs Attached]\nSilhouette: ${selectedSil.name} (${selectedSil.spec})\nShell: ${selectedFab.name}\nLogo: ${selectedBrand.name}\nVolume: ${selectedVol.name}`;
+    if (typeof window !== "undefined") {
+      const textarea = document.querySelector("#quote textarea");
+      if (textarea) {
+        textarea.value = (textarea.value ? textarea.value + "\n\n" : "") + briefNote;
+        textarea.dispatchEvent(new Event("input", { bubbles: true }));
+      }
+      const anchor = document.getElementById("quote-station") || document.getElementById("quote");
+      if (anchor) {
+        anchor.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+    setAttached(true);
+    setTimeout(() => setAttached(false), 4000);
+  };
+
+  return (
+    <div className="configurator-card" id="tech-pack-launcher">
+      <div className="configurator-header">
+        <div>
+          <span className="badge-pill active">
+            <Zap size={12} /> {zh ? "30秒打样方案生成器" : "30-SEC TECH PACK LAUNCHER"}
+          </span>
+          <h3 style={{ fontSize: "18px", margin: "6px 0 0", fontWeight: "700" }}>
+            {zh ? "配置专属技术参数与打样要求" : "Configure Custom Tech Pack & Sample"}
+          </h3>
+        </div>
+        <span style={{ fontSize: "11px", color: "#0284c7", fontWeight: "600" }}>
+          {zh ? "即时出具打样单" : "Instant Specs"}
+        </span>
       </div>
-      <figure className="carry-visual"><img src="/images/hero-bags.jpg" alt={copy('Illustrative arrangement of bags on stone plinths', '石台上的箱包系列示意图')} fetchpriority="high" /><figcaption><span>01 / {copy('THE CARRY EDIT', '携行选集')}</span><span>{copy('Collection illustration', '系列示意图')}</span></figcaption></figure>
+
+      <div className="config-group">
+        <div className="config-label">
+          <span>{zh ? "1. 目标包型构型 (Silhouette)" : "1. Target Silhouette"}</span>
+          <span style={{ color: "#0284c7", textTransform: "none" }}>{selectedSil.spec}</span>
+        </div>
+        <div className="config-pill-grid">
+          {Object.entries(silhouettes).map(([key, item]) => (
+            <button
+              type="button"
+              key={key}
+              className={`config-pill-btn ${silhouette === key ? "selected" : ""}`}
+              onClick={() => setSilhouette(key)}
+            >
+              <div style={{ fontWeight: silhouette === key ? "700" : "500" }}>{item.name}</div>
+              <div style={{ fontSize: "10px", color: "#64748b", marginTop: "2px" }}>{item.desc}</div>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="config-group">
+        <div className="config-label">
+          <span>{zh ? "2. 主身高能工程面料 (Technical Shell)" : "2. Technical Shell Fabric"}</span>
+          <span style={{ color: "#059669", textTransform: "none" }}>{selectedFab.badge}</span>
+        </div>
+        <div className="config-pill-grid">
+          {Object.entries(fabrics).map(([key, item]) => (
+            <button
+              type="button"
+              key={key}
+              className={`config-pill-btn ${fabric === key ? "selected" : ""}`}
+              onClick={() => setFabric(key)}
+            >
+              <div style={{ fontWeight: fabric === key ? "700" : "500" }}>{item.name}</div>
+              <div style={{ fontSize: "10px", color: "#64748b", marginTop: "2px" }}>{item.label}</div>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="config-group">
+        <div className="config-label">
+          <span>{zh ? "3. 品牌标识与装饰工艺 (Branding Method)" : "3. Logo & Branding Technique"}</span>
+          <span style={{ color: "#64748b", textTransform: "none" }}>{selectedBrand.badge}</span>
+        </div>
+        <div className="config-pill-grid">
+          {Object.entries(brandings).map(([key, item]) => (
+            <button
+              type="button"
+              key={key}
+              className={`config-pill-btn ${branding === key ? "selected" : ""}`}
+              onClick={() => setBranding(key)}
+            >
+              <div style={{ fontWeight: branding === key ? "700" : "500" }}>{item.name}</div>
+              <div style={{ fontSize: "10px", color: "#059669", marginTop: "2px" }}>{item.badge}</div>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="config-group" style={{ marginBottom: "14px" }}>
+        <div className="config-label">
+          <span>{zh ? "4. 预估采购批量 (Target Volume)" : "4. Target Production Volume"}</span>
+          <span style={{ color: "#64748b", textTransform: "none" }}>MOQ: 500 pcs</span>
+        </div>
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "8px" }}>
+          {Object.entries(volumes).map(([key, item]) => (
+            <button
+              type="button"
+              key={key}
+              className={`config-pill-btn ${volume === key ? "selected" : ""}`}
+              onClick={() => setVolume(key)}
+              style={{ textAlign: "center" }}
+            >
+              <div style={{ fontWeight: volume === key ? "700" : "500" }}>{item.name}</div>
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="config-summary-drawer">
+        <div className="config-summary-specs">
+          <div>
+            <span>{zh ? "极速打样周期" : "Sample Dispatch"}</span>
+            <strong>{zh ? "⚡ 7 - 10 工作日" : "⚡ 7 - 10 Business Days"}</strong>
+          </div>
+          <div>
+            <span>{zh ? "大货生产周期" : "Bulk Production"}</span>
+            <strong>{zh ? "25 - 35 天交付" : "25 - 35 Calendar Days"}</strong>
+          </div>
+          <div>
+            <span>{zh ? "出货港口" : "Shipping FOB Port"}</span>
+            <strong>{zh ? "中国泉州 / 厦门港" : "Quanzhou / Xiamen Port"}</strong>
+          </div>
+          <div>
+            <span>{zh ? "包装标准" : "Export Packaging"}</span>
+            <strong>{zh ? "独立OPP袋 + 5层外箱" : "Individual Polybag + Master Carton"}</strong>
+          </div>
+        </div>
+
+        <div style={{ display: "grid", gridTemplateColumns: "1.2fr 1fr", gap: "8px" }}>
+          <a
+            className="btn btn-accent"
+            href={waUrl}
+            target="_blank"
+            rel="noreferrer"
+            style={{ fontSize: "12px", padding: "10px 14px", justifyContent: "center" }}
+          >
+            <Send size={14} /> {zh ? "WhatsApp 直传打样单" : "Send via WhatsApp"}
+          </a>
+          <button
+            type="button"
+            className="btn btn-outline"
+            onClick={handleAttachRfq}
+            style={{ fontSize: "12px", padding: "10px 14px", justifyContent: "center", background: "#1e293b", color: "#ffffff", borderColor: "#334155" }}
+          >
+            <FileText size={14} /> {attached ? (zh ? "已代入询盘表单!" : "Attached to RFQ!") : (zh ? "一键代入询价单" : "Attach to RFQ")}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function MaterialEngineeringLab() {
+  const zh = getLocale() === "zh";
+  const [activeTab, setActiveTab] = useState("specs");
+
+  const materials = [
+    {
+      name: "Cordura® 1000D Ballistic Nylon",
+      chineseName: "军规级考杜拉 1000D 弹道尼龙",
+      code: "MAT-CD-1000D",
+      metric: "> 25,000 Cycles",
+      metricLabel: zh ? "马丁代尔耐磨测试" : "Martindale Abrasion",
+      tensile: "> 1,850 N",
+      tear: "> 180 N",
+      waterproof: "DuPont Teflon® DWR + 2x Back PU",
+      cert: "INVISTA Cordura® Authorized / REACH",
+      applications: zh ? "重载战术包、户外登山包底座加固、高磨损受力区" : "Tactical duty packs, heavy load bottoms, high-wear zones",
+      desc: zh ? "采用高强空变尼龙6,6纱线织造，兼具极高抗撕裂性与抗磨损能力，经久耐磨不易破损。" : "Engineered with high-tenacity air-textured Nylon 6,6 filaments for exceptional abrasion resistance.",
+    },
+    {
+      name: "GRS Recycled Eco-RPET 600D",
+      chineseName: "GRS 4.0 认证环保再生聚酯面料",
+      code: "MAT-RPET-600D",
+      metric: "-45% CO₂ Emission",
+      metricLabel: zh ? "碳排放降低" : "Carbon Reduction",
+      tensile: "> 1,200 N",
+      tear: "> 110 N",
+      waterproof: "Eco Water-based DWR + Non-toxic PU",
+      cert: "GRS Version 4.0 TC / OEKO-TEX Standard 100",
+      applications: zh ? "欧美中高端环保通勤系列、ESG企业礼品与全球零售品牌" : "European & US eco commuter lines, ESG corporate retail",
+      desc: zh ? "100% 消费后回收塑料瓶精纺而成，每只背包可消耗约 18-24 个塑料瓶，提供全流程交易证书(TC)。" : "Spun from 100% post-consumer recycled PET bottles. Comes with authentic GRS Transaction Certificate (TC).",
+    },
+    {
+      name: "YKK® AquaGuard Water-Tight Zippers",
+      chineseName: "YKK 防水及防爆密合拉链",
+      code: "MAT-YKK-AQ05",
+      metric: "> 10,000 Cycles",
+      metricLabel: zh ? "往复拉合疲劳寿命" : "Continuous Reciprocating Pulls",
+      tensile: "Crosswise > 750 N",
+      tear: "Anti-burst Level 5",
+      waterproof: "PU Laminated Reverse Coil (>5,000mm H2O)",
+      cert: "YKK Japan Quality Standard / JIS S3015",
+      applications: zh ? "独立防震电脑仓、外置快取收纳袋、全天候防水防盗封口" : "Laptop compartments, exterior quick-stash pockets, storm rolltops",
+      desc: zh ? "反装拉链齿表面附着高附着力聚氨酯(PU)防水薄膜，有效阻隔雨水渗透与强力防爆齿。" : "Polyurethane film laminated on reverse coil teeth prevents rain intrusion and tooth blowout.",
+    },
+    {
+      name: "Duraflex® & Fidlock® Hardware Ecosystem",
+      chineseName: "军工级赛钢扣具与磁吸快开系统",
+      code: "MAT-DF-FDM08",
+      metric: "-30°C to +80°C",
+      metricLabel: zh ? "极端温域抗冲击" : "Extreme Thermal Impact Range",
+      tensile: "Tensile Retention > 85 kgf",
+      tear: "High Modulus POM",
+      waterproof: "100% Rust-proof Polymer & Coated Magnets",
+      cert: "ISO 9001 / Mil-Spec Compliance",
+      applications: zh ? "人体工学胸带、腰封负重调节、单手磁吸快开扣" : "Ergonomic sternum harness, load-lifters, magnetic one-hand latches",
+      desc: zh ? "采用杜邦原生聚甲醛(POM)赛钢原料注塑，耐低温冲击不脆裂；可选配德国 Fidlock 机械磁吸快开系统。" : "Injection molded with virgin POM engineering polymer with optional German Fidlock magnetic mechanical latches.",
+    },
+  ];
+
+  return (
+    <section className="section" style={{ background: "#ffffff", borderTop: "1px solid #e2e8f0", padding: "72px 0" }}>
+      <div className="container">
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: "20px", marginBottom: "36px" }}>
+          <div>
+            <span className="badge-pill active"><Sliders size={12} /> {zh ? "材料工程实验室" : "MATERIAL ENGINEERING LAB"}</span>
+            <h2 style={{ fontSize: "clamp(28px, 3vw, 40px)", margin: "8px 0 6px", fontWeight: "800" }}>
+              {zh ? "严苛性能面料与全球顶级辅料选型" : "Engineered Fabrics & Precision Hardware"}
+            </h2>
+            <p style={{ color: "#64748b", fontSize: "15px", maxWidth: "640px", margin: 0 }}>
+              {zh ? "从军规级 1000D 弹道尼龙到 GRS 认证环保再生聚酯，每批原辅料均通过实验室物理测试，杜绝起毛、撕裂与渗水。" : "From military-grade Cordura 1000D to GRS-certified RPET, all raw materials pass physical testing for tensile, abrasion, and water ingress."}
+            </p>
+          </div>
+          <div style={{ display: "flex", gap: "8px" }}>
+            <button
+              type="button"
+              className={`btn ${activeTab === "specs" ? "btn-dark" : "btn-outline"}`}
+              onClick={() => setActiveTab("specs")}
+              style={{ fontSize: "12px", minHeight: "38px", padding: "8px 14px" }}
+            >
+              {zh ? "物理测试参数" : "Physical Test Data"}
+            </button>
+            <button
+              type="button"
+              className={`btn ${activeTab === "eco" ? "btn-dark" : "btn-outline"}`}
+              onClick={() => setActiveTab("eco")}
+              style={{ fontSize: "12px", minHeight: "38px", padding: "8px 14px" }}
+            >
+              {zh ? "环保与认证资质" : "Eco & Compliance"}
+            </button>
+          </div>
+        </div>
+
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "24px" }}>
+          {materials.map((mat) => (
+            <div key={mat.code} className="lab-card">
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "12px" }}>
+                <span style={{ fontFamily: "var(--font-mono)", fontSize: "11px", color: "#64748b", fontWeight: "600" }}>{mat.code}</span>
+                <span className="badge-pill verified">{mat.metric}</span>
+              </div>
+              <h3 style={{ fontSize: "18px", fontWeight: "700", marginBottom: "4px" }}>{mat.name}</h3>
+              <div style={{ fontSize: "12px", color: "#0284c7", fontWeight: "600", marginBottom: "12px" }}>{mat.chineseName}</div>
+              <p style={{ fontSize: "13px", color: "#475569", lineHeight: "1.5", minHeight: "56px", marginBottom: "16px" }}>{mat.desc}</p>
+
+              {activeTab === "specs" ? (
+                <div style={{ background: "#f8fafc", padding: "12px 14px", borderRadius: "8px", border: "1px solid #f1f5f9" }}>
+                  <div className="spec-metric-row">
+                    <span>{zh ? "核心测试指标" : "Core Test Metric"}</span>
+                    <strong>{mat.metricLabel}</strong>
+                  </div>
+                  <div className="spec-metric-row">
+                    <span>{zh ? "拉伸断裂强度" : "Tensile Strength"}</span>
+                    <strong>{mat.tensile}</strong>
+                  </div>
+                  <div className="spec-metric-row">
+                    <span>{zh ? "抗撕裂负荷" : "Tear Resistance"}</span>
+                    <strong>{mat.tear}</strong>
+                  </div>
+                  <div className="spec-metric-row">
+                    <span>{zh ? "防水与后整理" : "Waterproof Finish"}</span>
+                    <strong style={{ fontSize: "11px", maxWidth: "140px", textAlign: "right", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{mat.waterproof}</strong>
+                  </div>
+                </div>
+              ) : (
+                <div style={{ background: "#f8fafc", padding: "12px 14px", borderRadius: "8px", border: "1px solid #f1f5f9" }}>
+                  <div className="spec-metric-row">
+                    <span>{zh ? "权威认证" : "Certification"}</span>
+                    <strong style={{ fontSize: "11px" }}>{mat.cert}</strong>
+                  </div>
+                  <div className="spec-metric-row">
+                    <span>{zh ? "推荐适用产品" : "Target Application"}</span>
+                    <strong style={{ fontSize: "11px", maxWidth: "140px", textAlign: "right" }}>{mat.applications}</strong>
+                  </div>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
     </section>
-    <div className="editorial-band"><span>{copy('OBJECTS FOR EVERYDAY POSSIBILITY', '为日常的更多可能')}</span><span>{copy('REFERENCE COLLECTION · CUSTOM DEVELOPMENT', '参考系列 · 定制开发')}</span><span>STARDOTS BAGS</span></div>
-    <section className="section edit-selection"><div className="container">
-      <div className="chapter-heading"><span className="chapter-label">01 / {copy('SELECTED REFERENCES', '精选参考')}</span><h2>{copy('A different way', '用另一种方式')}<br /><em>{copy('to carry.', '随身携行。')}</em></h2><p>{copy('Start with a shape, a detail, a daily ritual. The reference is the beginning of the conversation.', '从包型、细节，或一种日常习惯出发。参考款式，是沟通的起点。')}</p></div>
-      <div className="edit-products">{selected.map((item, i) => <a className={`edit-product edit-product-${i}`} href={localHref(`/products/models/${item.slug}`)} key={item.sku}><div className="edit-object"><span className="object-number">0{i+1}</span><img src={item.images[0]} alt={item.name[zh ? 1 : 0]} loading="lazy" /><span className="object-arrow" aria-hidden="true">↗</span></div><div className="edit-caption"><h3>{item.name[zh ? 1 : 0]}</h3><span>{item.sku}</span></div></a>)}</div>
-      <div className="edit-footnote"><p>{copy('Actual reference photographs. Specifications, materials and availability are confirmed for each project.', '真实参考款式图片。规格、材料与可供情况，按具体项目确认。')}</p><a className="text-link" href={localHref('/products')}>{copy(`View all ${items.length} reference models`, `查看全部 ${items.length} 款参考款式`)} <ArrowRight size={18} /></a></div>
-    </div></section>
-    <section className="family-chapter"><div className="container family-layout"><div className="family-intro"><span className="chapter-label">02 / {copy('FIND YOUR FORM', '找到您的包型')}</span><h2>{copy('One collection.', '一个系列。')}<br /><em>{copy('Many lives.', '多种生活。')}</em></h2><p>{copy('For the commute, the long weekend, and everything carried in between.', '从每日通勤到周末远行，探索不同使用场景中的携行方式。')}</p><a className="text-link" href={localHref('/products')}>{copy('The complete collection', '探索完整系列')} <ArrowRight size={18}/></a></div><div className="family-index">{categories.map((c,i)=><a href={localHref(`/products/${c.slug}`)} key={c.slug}><span className="family-number">{String(i+1).padStart(2,'0')}</span><h3>{c.name}</h3><span className="family-count">{items.filter(item=>item.category===c.slug).length} {copy('models','款')}</span><ArrowRight size={23}/></a>)}</div></div></section>
-    <section className="development-chapter"><div className="development-photo"><img src="/images/design-reference.jpg" alt={copy('Illustrative bag sketches and development references', '箱包草图和开发参考示意图')} loading="lazy"/><span>{copy('DEVELOPMENT NOTEBOOK / ILLUSTRATION', '开发笔记 / 示意图')}</span></div><div className="development-story"><span className="chapter-label">03 / {copy('MADE AROUND YOUR BRIEF', '围绕您的需求')}</span><h2>{copy('Your idea.', '您的想法。')}<br /><em>{copy('The next move.', '下一步行动。')}</em></h2><p>{copy('A sketch. A reference. A detail you cannot stop thinking about. Bring us a starting point, and we can discuss the path from brief to sample.', '一张草图、一个参考，或一个反复琢磨的细节。带着您的想法，从需求到样品，共同讨论接下来的路径。')}</p><div className="notebook-steps">{[[copy('Define the brief','定义需求'),copy('Buyer, use, quantity and destination.','客户、用途、数量与目的地。')],[copy('Review the sample','审核样品'),copy('Agree on form, details and written requirements.','确认包型、细节与书面要求。')],[copy('Plan the order','规划订单'),copy('Confirm terms, checks and delivery responsibilities.','确认条款、检查与交付责任。')]].map(([title,desc],i)=><div key={title}><span>0{i+1}</span><div><h3>{title}</h3><p>{desc}</p></div></div>)}</div><a className="btn btn-dark" href={localHref('/services')}>{copy('Explore the development process','了解开发流程')} <ArrowRight size={18}/></a></div></section>
-    <section className="section journal-chapter"><div className="container"><div className="chapter-heading"><span className="chapter-label">04 / {copy('THE BUYER’S NOTEBOOK','买家笔记')}</span><h2>{copy('Good questions.', '好问题。')}<br/><em>{copy('Better beginnings.', '好开始。')}</em></h2><a className="text-link" href={localHref('/resources')}>{copy('Read the journal','阅读采购指南')} <ArrowRight size={18}/></a></div><div className="resource-grid">{articles.map(article=><ArticleCard article={article} key={article.slug}/>)}</div></div></section>
-    <BannerCTA />
-  </main>;
+  );
+}
+
+function BrandingLab() {
+  const zh = getLocale() === "zh";
+  const techniques = [
+    {
+      title: zh ? "3D 立体微量注塑硅胶标" : "3D Micro-Injection Silicone Badges",
+      craft: zh ? "多色高精钢模硫化微量注塑" : "Multi-Color Precision Steel Die Vulcanization",
+      precision: "0.8mm - 2.5mm 3D Relief",
+      durability: "100% UV & Weatherproof · Zero Cracking",
+      moq: "500 pcs",
+      fit: zh ? "专业户外、战术机能、高端都市运动系列" : "Technical outdoor, tactical EDC, athletic street",
+      desc: zh ? "边缘极其锋利利落，触感丝滑微糯，经久耐洗不老化不变色，呈现高级哑光质感。" : "Razor-sharp edge definition, velvety tactile handfeel, resistant to aging and color fading.",
+    },
+    {
+      title: zh ? "日产田岛高密立体刺绣" : "High-Density 3D Precision Embroidery",
+      craft: zh ? "日本 Tajima 电脑多头刺绣机 + EVA高密发泡" : "Japanese Tajima Computerized Heads + High-Density EVA",
+      precision: "0.25mm Ultra-fine Pitch · Up to 15 Colors",
+      durability: "High Abrasion & Industrial Wash Tested",
+      moq: "500 pcs",
+      fit: zh ? "传统运动品牌、常春藤学院复古风、品牌徽章" : "Heritage athletic, collegiate lifestyle, chest badges",
+      desc: zh ? "德国 Madeira 丝光聚酯线高密缝纫，立体饱满，针脚紧密无浮线，洗水后依然挺括。" : "Embroidered with lustrous Madeira polyester threads for deep dimension and immaculate stitch density.",
+    },
+    {
+      title: zh ? "激光精雕金属铭牌与五金件" : "Laser-Etched Metal Badges & Hardware",
+      craft: zh ? "锌合金压铸 + 数控倒角 + 光纤微孔激光精雕" : "Die-Cast Zinc Alloy + CNC Chamfer + Fiber Laser Etch",
+      precision: "±0.05mm Engineering Tolerance",
+      durability: "48H Salt Spray Anti-Corrosion Rating",
+      moq: "1,000 pcs",
+      fit: zh ? "高端商务电脑包、行政公文包、轻奢极简设计" : "Executive business briefs, laptop bags, luxury minimalism",
+      desc: zh ? "提供哑光枪黑、拉丝黑铬、复古做旧古铜等多种电镀表面，金属质感冷冽沉稳，经得起长期摩擦。" : "Available in matte gunmetal, brushed black chrome, and antique bronze for executive distinction.",
+    },
+    {
+      title: zh ? "热压凹凸烙印真皮/PU皮牌" : "Debossed Genuine & Vegan PU Leather",
+      craft: zh ? "高压数控铜模温控热压烫印 (可选烫金/烫银)" : "CNC Brass Die Hydraulic Heat Stamping (Blind/Foil)",
+      precision: "0.5mm - 1.2mm Deep Burnished Impression",
+      durability: "Natural Burnished Aging Character",
+      moq: "500 pcs",
+      fit: zh ? "复古帆布包、经典旅行袋、生活方式精品包" : "Vintage canvas daypacks, weekend duffels, lifestyle carry",
+      desc: zh ? "高温瞬时热压使纤维致密变色，呈现温润自然的明暗层次；可选封边油边或无缝切边。" : "Controlled hydraulic pressure produces a rich burnished imprint with natural contrast and sealed edges.",
+    },
+    {
+      title: zh ? "3M Scotchlite™ 高反光夜行热压标" : "3M Scotchlite™ Reflective Transfer",
+      craft: zh ? "微玻璃珠逆反射工业级热转印" : "Industrial Micro-Glass Bead Retro-Reflective Heat Press",
+      precision: "> 450 cd/(lx·m²) High-Visibility Rating",
+      durability: "EN ISO 20471 Certified · 50+ Wash Resistance",
+      moq: "500 pcs",
+      fit: zh ? "夜间骑行包、都市通勤安全包、跑步水袋背心" : "Night cycling packs, commuter safety bags, running vests",
+      desc: zh ? "夜间车灯照射下呈现极强反光，保障佩戴者夜行安全，符合欧盟与北美最高安全反光标准。" : "High-intensity retro-reflection under automotive headlights, fully compliant with EN ISO 20471 safety norms.",
+    },
+  ];
+
+  return (
+    <section className="section" style={{ background: "#f8fafc", borderTop: "1px solid #e2e8f0", padding: "72px 0" }}>
+      <div className="container">
+        <div style={{ marginBottom: "36px" }}>
+          <span className="badge-pill active"><Gem size={12} /> {zh ? "专属品牌工艺工坊" : "CUSTOM BRANDING & LOGO TECH LAB"}</span>
+          <h2 style={{ fontSize: "clamp(28px, 3vw, 40px)", margin: "8px 0 6px", fontWeight: "800" }}>
+            {zh ? "为您的品牌注入极致质感与视觉辨识度" : "Precision Logo & Branding Execution"}
+          </h2>
+          <p style={{ color: "#64748b", fontSize: "15px", maxWidth: "680px", margin: 0 }}>
+            {zh ? "从模具精雕到高频热压，我们提供5大成熟工业级Logo装饰工艺，确保在恶劣使用环境下不脱落、不褪色、不开裂。" : "Explore 5 industrial branding techniques tested for rigorous weather resistance, zero peeling, and long-term durability."}
+          </p>
+        </div>
+
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "20px" }}>
+          {techniques.map((item, idx) => (
+            <div key={item.title} className="branding-pill-card">
+              <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
+                <span style={{ fontSize: "12px", fontWeight: "700", color: "#0284c7" }}>0{idx + 1} / CRAFT</span>
+                <span className="badge-pill" style={{ fontSize: "10px" }}>MOQ: {item.moq}</span>
+              </div>
+              <h3 style={{ fontSize: "17px", fontWeight: "700", margin: "0 0 6px" }}>{item.title}</h3>
+              <div style={{ fontSize: "12px", color: "#64748b", marginBottom: "12px" }}>{item.craft}</div>
+              <p style={{ fontSize: "13px", color: "#475569", lineHeight: "1.5", marginBottom: "14px" }}>{item.desc}</p>
+              <div style={{ borderTop: "1px solid #f1f5f9", paddingTop: "12px", fontSize: "11px", display: "grid", gap: "6px" }}>
+                <div style={{ display: "flex", justifyContent: "space-between" }}>
+                  <span style={{ color: "#64748b" }}>{zh ? "工艺精度" : "Precision"}:</span>
+                  <strong style={{ color: "#0f172a" }}>{item.precision}</strong>
+                </div>
+                <div style={{ display: "flex", justifyContent: "space-between" }}>
+                  <span style={{ color: "#64748b" }}>{zh ? "耐久性测试" : "Durability"}:</span>
+                  <strong style={{ color: "#059669" }}>{item.durability}</strong>
+                </div>
+                <div style={{ display: "flex", justifyContent: "space-between" }}>
+                  <span style={{ color: "#64748b" }}>{zh ? "最佳适用" : "Best Fit"}:</span>
+                  <strong style={{ color: "#475569" }}>{item.fit}</strong>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function JinjiangPowerhouse() {
+  const zh = getLocale() === "zh";
+  const pillars = [
+    {
+      icon: Factory,
+      title: zh ? "12,000 ㎡ 现代化智造车间" : "12,000 m² Modern Smart Workshop",
+      subtitle: zh ? "12 条柔性精益生产吊挂线" : "12 Lean Hanging Production Lines",
+      metric: "300,000+ Pcs/Mo",
+      desc: zh ? "280+ 名持证熟练缝纫技师与版房打样师，月产各类专业双肩背包30万只以上，支持急单快速分线与大货稳定排产。" : "280+ skilled technicians producing 300,000+ bags monthly with flexible multi-line balancing.",
+    },
+    {
+      icon: Cpu,
+      title: zh ? "全数控自动化智能设备" : "Automated Computerized Machinery",
+      subtitle: zh ? "±0.1mm CNC 激光与裁床" : "±0.1mm CNC Laser Cutting Tables",
+      metric: "180+ Auto Stations",
+      desc: zh ? "配备数控激光与振动刀裁床、电脑数控花样车、超声波无缝熔接机与高频热风压胶机，裁片精准无误差。" : "Equipped with CNC laser cutting, pattern stitching stations, ultrasonic seam welding, and seam taping machines.",
+    },
+    {
+      icon: ShieldCheck,
+      title: zh ? "厂内实体物理检测实验室" : "In-House Physical Testing Lab",
+      subtitle: zh ? "出货前全项目应力与耐候实测" : "Full Suite Physical Stress Testing",
+      metric: "100% Pre-Shipment Tested",
+      desc: zh ? "配备马丁代尔耐磨仪、恒温恒湿盐雾测试箱、背带拉力机(50kg持续72小时)、耐水压测试机与拉链往复疲劳机。" : "Martindale abrasion, salt spray chamber, 50kg shoulder strap pull tester, and hydrostatic head tester.",
+    },
+    {
+      icon: Award,
+      title: zh ? "全球社会责任与环保合规" : "International Audits & ESG Compliance",
+      subtitle: zh ? "BSCI A级 / ISO9001 / GRS 4.0" : "BSCI Grade A / ISO9001 / GRS 4.0",
+      metric: "Grade-A Certified",
+      desc: zh ? "完全通过 BSCI 国际社会责任审核、ISO 9001:2015 质量管理体系认证与 GRS 全球回收标准，符合 REACH 与加州 65 标准。" : "Audited and certified by BSCI (Grade A), ISO 9001:2015, and GRS 4.0. Compliant with REACH and Prop 65.",
+    },
+  ];
+
+  return (
+    <section className="powerhouse-section">
+      <div className="container">
+        <div style={{ textAlign: "center", maxWidth: "780px", margin: "0 auto 48px" }}>
+          <span className="badge-pill active"><Factory size={12} /> {zh ? "晋江智造实体生产基地" : "JINJIANG SMART MANUFACTURING POWERHOUSE"}</span>
+          <h2 style={{ fontSize: "clamp(28px, 3.2vw, 42px)", margin: "12px 0 10px", fontWeight: "800" }}>
+            {zh ? "立足中国鞋服箱包之都 · 15分钟全产业链极速响应" : "World-Class Bag Manufacturing at the Hub of Jinjiang"}
+          </h2>
+          <p style={{ color: "#64748b", fontSize: "15px", lineHeight: "1.6" }}>
+            {zh ? "晋江市星点商贸有限责任公司 (JINJIANG STARDOTS CO., LTD.) 坐落于中国福建省泉州市晋江市五里工业区。依托千亿级产业集群，原辅料、拉链、织带与扣具 15 分钟内完成调配，从设计打样到大货出港高效闭环。" : "Located in Wuli Industrial Area, Jinjiang, Quanzhou, Fujian, China. Situated at the epicenter of China’s luggage cluster, raw materials, webbings, and hardware are sourced within 15 minutes."}
+          </p>
+        </div>
+
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "16px", marginBottom: "36px" }}>
+          <div className="stat-pill-box">
+            <strong>12,000 ㎡</strong>
+            <span>{zh ? "现代化厂房总面积" : "Workshop Facility"}</span>
+          </div>
+          <div className="stat-pill-box">
+            <strong>300,000+</strong>
+            <span>{zh ? "月度大货出运产能 (只)" : "Monthly Capacity (Pcs)"}</span>
+          </div>
+          <div className="stat-pill-box">
+            <strong>7 - 10 Days</strong>
+            <span>{zh ? "打样出板交付周期" : "Rapid Prototyping Lead"}</span>
+          </div>
+          <div className="stat-pill-box">
+            <strong>Grade A</strong>
+            <span>{zh ? "BSCI 国际社会责任等级" : "BSCI Social Audit Score"}</span>
+          </div>
+        </div>
+
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "24px" }}>
+          {pillars.map((item) => {
+            const Icon = item.icon;
+            return (
+              <div key={item.title} className="lab-card" style={{ background: "#ffffff" }}>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "16px" }}>
+                  <div style={{ width: "42px", height: "42px", borderRadius: "10px", background: "#e0f2fe", color: "#0284c7", display: "grid", placeItems: "center" }}>
+                    <Icon size={22} />
+                  </div>
+                  <span className="badge-pill verified">{item.metric}</span>
+                </div>
+                <h3 style={{ fontSize: "18px", fontWeight: "700", marginBottom: "4px" }}>{item.title}</h3>
+                <div style={{ fontSize: "12px", color: "#64748b", fontWeight: "500", marginBottom: "12px" }}>{item.subtitle}</div>
+                <p style={{ fontSize: "13px", color: "#475569", lineHeight: "1.5", margin: 0 }}>{item.desc}</p>
+              </div>
+            );
+          })}
+        </div>
+
+        <div style={{ marginTop: "36px", background: "#ffffff", border: "1px solid #e2e8f0", borderRadius: "14px", padding: "24px 28px", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "20px" }}>
+          <div>
+            <div style={{ fontWeight: "700", fontSize: "15px", color: "#0f172a" }}>
+              {zh ? "工厂实体地址 (Factory Direct Base)" : "Verified Factory Location"}
+            </div>
+            <div style={{ fontSize: "13px", color: "#64748b", marginTop: "4px" }}>
+              {zh ? "中国福建省泉州市晋江市五里工业区 · 晋江市星点商贸有限责任公司" : "Wuli Industrial Area, Jinjiang, Quanzhou, Fujian Province, China · JINJIANG STARDOTS CO., LTD."}
+            </div>
+          </div>
+          <div style={{ display: "flex", gap: "12px" }}>
+            <a className="btn btn-outline" href="mailto:contact@cnstardots.com" style={{ fontSize: "12px", minHeight: "40px", padding: "8px 16px" }}>
+              <Mail size={14} /> {zh ? "预约审厂 / 索取验厂报告" : "Request Audit Report"}
+            </a>
+            <a className="btn btn-dark" href="https://wa.me/8613655977639" target="_blank" rel="noreferrer" style={{ fontSize: "12px", minHeight: "40px", padding: "8px 16px" }}>
+              <Send size={14} /> {zh ? "厂长专线 WhatsApp 直联" : "Direct Factory WhatsApp"}
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function FeaturedCatalogShowcase() {
+  const items = useCatalog();
+  const zh = getLocale() === "zh";
+  const featuredSkus = ["MH-2506023", "JSD-250407", "MH-2506013", "JSD-250420"];
+  const featured = featuredSkus.map(sku => items.find(item => item.sku === sku)).filter(Boolean);
+
+  return (
+    <section className="section" style={{ background: "#ffffff", padding: "72px 0" }}>
+      <div className="container">
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", flexWrap: "wrap", gap: "20px", marginBottom: "36px" }}>
+          <div>
+            <span className="badge-pill active"><Package size={12} /> {zh ? "精选参考系列" : "REAL REFERENCE BACKPACKS"}</span>
+            <h2 style={{ fontSize: "clamp(28px, 3vw, 40px)", margin: "8px 0 6px", fontWeight: "800" }}>
+              {zh ? "真实出口背包款式库 · 现成纸样快速改板" : "Real Export Backpack Library (67+ Models)"}
+            </h2>
+            <p style={{ color: "#64748b", fontSize: "15px", maxWidth: "640px", margin: 0 }}>
+              {zh ? "所有展示款式均为星点实拍样板，支持基于成熟版型快速调整分层、更替面料、客制Logo与辅料配色，省去高额开模费。" : "All photographs are actual reference models. Modify fabric, branding, and pocket compartments on proven patterns."}
+            </p>
+          </div>
+          <a className="btn btn-dark" href={localHref("/products")} style={{ fontSize: "13px", minHeight: "42px", padding: "10px 18px" }}>
+            {zh ? "查看全部 67 款产品库" : "Explore All 67 Models"} <ArrowRight size={15} />
+          </a>
+        </div>
+
+        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "24px" }}>
+          {featured.map(item => (
+            <a
+              key={item.sku}
+              className="model-card"
+              href={localHref(`/products/models/${item.slug}`)}
+              style={{ display: "block", textDecoration: "none" }}
+            >
+              <div className="model-card-photo">
+                <img src={item.images[0]} alt={item.name[zh ? 1 : 0]} loading="lazy" />
+              </div>
+              <div className="model-card-copy">
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "6px" }}>
+                  <span className="badge-pill" style={{ fontSize: "10px", padding: "2px 7px" }}>{item.category.toUpperCase()}</span>
+                  <span style={{ fontFamily: "var(--font-mono)", fontSize: "11px", color: "#64748b", fontWeight: "600" }}>{item.sku}</span>
+                </div>
+                <h3 style={{ fontSize: "16px", fontWeight: "700", color: "#0f172a", margin: "0 0 6px" }}>
+                  {item.name[zh ? 1 : 0]}
+                </h3>
+                <p style={{ fontSize: "12px", color: "#64748b", lineHeight: "1.4", margin: "0 0 12px" }}>
+                  {item.description[zh ? 1 : 0]}
+                </p>
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderTop: "1px solid #f1f5f9", paddingTop: "10px", fontSize: "12px", color: "#0284c7", fontWeight: "600" }}>
+                  <span>{zh ? "查看技术规格与定制" : "View Tech Specs"}</span>
+                  <ArrowRight size={14} />
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function Home() {
+  const zh = getLocale() === "zh";
+
+  return (
+    <main id="main" className="home-page industrial-home">
+      <section className="hero-industrial">
+        <div className="container hero-industrial-grid">
+          <div>
+            <div style={{ display: "flex", alignItems: "center", gap: "8px", marginBottom: "18px" }}>
+              <span className="badge-pill active">
+                <Factory size={12} /> {zh ? "中国晋江 · 工贸一体实体制造" : "OEM / ODM BACKPACK MANUFACTURER · JINJIANG"}
+              </span>
+              <span className="badge-pill verified">
+                <CheckCircle2 size={12} /> BSCI GRADE-A
+              </span>
+            </div>
+
+            <h1 style={{ fontSize: "clamp(36px, 4.2vw, 56px)", lineHeight: "1.08", fontWeight: "800", color: "#0f172a", margin: "0 0 18px", letterSpacing: "-0.04em" }}>
+              {zh ? (
+                <>为全球品牌打造<br /><span style={{ color: "#0284c7" }}>高性能专业背包</span></>
+              ) : (
+                <>Engineering High-Performance<br /><span style={{ color: "#0284c7" }}>Backpacks for Global Brands</span></>
+              )}
+            </h1>
+
+            <p style={{ fontSize: "16px", lineHeight: "1.6", color: "#475569", maxWidth: "580px", margin: "0 0 28px" }}>
+              {zh ? (
+                "晋江市星点商贸有限责任公司，12,000㎡ 实体智造厂房，BSCI 与 ISO9001 双重认证。专业承接战术通勤、超轻户外、商务电脑包 OEM/ODM。7-10 天极速打样出板，月产 30 万+只，泉州/厦门港直发。"
+              ) : (
+                "JINJIANG STARDOTS CO., LTD. — 12,000 m² smart manufacturing facility in Jinjiang, Fujian, China. Certified by BSCI & ISO9001. Specialized in technical commute, hiking, and laptop backpacks. 7-10 day prototyping, 300,000+ monthly capacity."
+              )}
+            </p>
+
+            <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "14px", marginBottom: "28px", maxWidth: "540px" }}>
+              <div style={{ background: "#ffffff", border: "1px solid #e2e8f0", borderRadius: "10px", padding: "12px 16px" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "8px", color: "#0284c7", fontWeight: "700", fontSize: "14px" }}>
+                  <Zap size={16} /> {zh ? "7 - 10 天" : "7 - 10 Days"}
+                </div>
+                <div style={{ fontSize: "11px", color: "#64748b", marginTop: "2px" }}>
+                  {zh ? "极速打样与纸样出板" : "Rapid Prototyping Lead"}
+                </div>
+              </div>
+
+              <div style={{ background: "#ffffff", border: "1px solid #e2e8f0", borderRadius: "10px", padding: "12px 16px" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "8px", color: "#0f172a", fontWeight: "700", fontSize: "14px" }}>
+                  <Package size={16} /> {zh ? "300,000+ 只/月" : "300,000+ Pcs/Mo"}
+                </div>
+                <div style={{ fontSize: "11px", color: "#64748b", marginTop: "2px" }}>
+                  {zh ? "12条吊挂精益流水线" : "12 Lean Production Lines"}
+                </div>
+              </div>
+
+              <div style={{ background: "#ffffff", border: "1px solid #e2e8f0", borderRadius: "10px", padding: "12px 16px" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "8px", color: "#0f172a", fontWeight: "700", fontSize: "14px" }}>
+                  <Factory size={16} /> {zh ? "12,000 ㎡" : "12,000 m²"}
+                </div>
+                <div style={{ fontSize: "11px", color: "#64748b", marginTop: "2px" }}>
+                  {zh ? "晋江五里工业区实体厂房" : "Jinjiang Wuli Industrial Facility"}
+                </div>
+              </div>
+
+              <div style={{ background: "#ffffff", border: "1px solid #e2e8f0", borderRadius: "10px", padding: "12px 16px" }}>
+                <div style={{ display: "flex", alignItems: "center", gap: "8px", color: "#059669", fontWeight: "700", fontSize: "14px" }}>
+                  <ShieldCheck size={16} /> {zh ? "BSCI / ISO9001" : "BSCI & ISO9001"}
+                </div>
+                <div style={{ fontSize: "11px", color: "#64748b", marginTop: "2px" }}>
+                  {zh ? "GRS 4.0 环保回收认证" : "GRS 4.0 Scope Certified"}
+                </div>
+              </div>
+            </div>
+
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "12px" }}>
+              <a className="btn btn-dark" href="#tech-pack-launcher" style={{ fontSize: "13px", padding: "12px 20px" }}>
+                <Sliders size={16} /> {zh ? "配置 30秒打样单" : "Configure 30s Tech Pack"}
+              </a>
+              <a className="btn btn-outline" href={localHref("/products")} style={{ fontSize: "13px", padding: "12px 20px" }}>
+                <Package size={16} /> {zh ? "浏览 67 款产品库" : "Browse Catalog (67+)"}
+              </a>
+              <a className="btn btn-accent" href="https://wa.me/8613655977639" target="_blank" rel="noreferrer" style={{ fontSize: "13px", padding: "12px 20px" }}>
+                <Send size={16} /> WhatsApp
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <TechPackConfigurator />
+          </div>
+        </div>
+      </section>
+
+      <MaterialEngineeringLab />
+
+      <BrandingLab />
+
+      <JinjiangPowerhouse />
+
+      <FeaturedCatalogShowcase />
+
+      <section className="section" style={{ background: "#f8fafc", borderTop: "1px solid #e2e8f0", padding: "72px 0" }}>
+        <div className="container">
+          <div style={{ textAlign: "center", maxWidth: "720px", margin: "0 auto 36px" }}>
+            <span className="badge-pill active"><Truck size={12} /> {zh ? "集装箱装柜计算器" : "CBM & CONTAINER LOAD ESTIMATOR"}</span>
+            <h2 style={{ fontSize: "clamp(28px, 3vw, 40px)", margin: "8px 0 6px", fontWeight: "800" }}>
+              {zh ? "精确核算外箱容积与国际海运装柜率" : "Calculate Carton CBM & Ocean Container Loading"}
+            </h2>
+            <p style={{ color: "#64748b", fontSize: "15px" }}>
+              {zh ? "大货生产前锁定包装方案。根据包型规格精确模拟 20GP、40GP、40HQ 集装箱装箱利用率，大幅降低单位海运物流成本。" : "Plan your shipping logistics before production begins. Calculate carton volumes and container fill rates for 20GP, 40GP, and 40HQ containers."}
+            </p>
+          </div>
+          <CbmCalculator />
+        </div>
+      </section>
+
+      <section className="section" id="quote-station" style={{ background: "#ffffff", borderTop: "1px solid #e2e8f0", padding: "72px 0" }}>
+        <div className="container" style={{ maxWidth: "860px" }}>
+          <div style={{ textAlign: "center", marginBottom: "36px" }}>
+            <span className="badge-pill active"><Mail size={12} /> {zh ? "直接询价与打样申请" : "DIRECT RFQ & SAMPLING STATION"}</span>
+            <h2 style={{ fontSize: "clamp(28px, 3vw, 40px)", margin: "8px 0 6px", fontWeight: "800" }}>
+              {zh ? "提交项目需求 · 24小时内获得正式FOB报价" : "Request Official FOB Quotation & Rapid Sample"}
+            </h2>
+            <p style={{ color: "#64748b", fontSize: "15px" }}>
+              {zh ? "填写您的产品需求，系统将即时生成标准化询价单号 (RFQ-STD-XXXXXX)，并支持一键通过 WhatsApp 或邮件直接对接晋江工厂外贸团队。" : "Submit your brief to generate an official RFQ voucher with direct WhatsApp and email communication."}
+            </p>
+          </div>
+          <QuoteForm />
+        </div>
+      </section>
+
+      <BannerCTA />
+    </main>
+  );
 }
 
 function PageHero({ label, title, intro, image, imageAlt, imageSlot, imageFit = 'cover', visual, compact = false, secondaryHref = '/products', secondaryLabel = t('ui.exploreProducts') }) {

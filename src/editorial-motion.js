@@ -18,10 +18,10 @@ export function useEditorialMotion(path) {
       const tick = time => lenis.raf(time * 1000);
       gsap.ticker.add(tick);
       const context = gsap.context(() => {
-        gsap.from('.carry-intro h1', { y: 32, duration: 1.05, ease: 'power3.out', clearProps: 'transform' });
-        gsap.from('.carry-visual img', { scale: 1.045, duration: 1.4, ease: 'power3.out', clearProps: 'transform' });
-        document.querySelectorAll('.chapter-heading,.edit-product,.family-index>a,.development-story,.guide-card,.section-heading').forEach(element => {
-          gsap.from(element, { y: 24, duration: .7, ease: 'power2.out', clearProps: 'transform', scrollTrigger: { trigger: element, start: 'top 92%', once: true } });
+        gsap.from('.hero-industrial h1', { y: 24, duration: 0.9, ease: 'power3.out', clearProps: 'transform' });
+        gsap.from('.configurator-card', { y: 28, duration: 1.0, ease: 'power3.out', clearProps: 'transform' });
+        document.querySelectorAll('.lab-card,.branding-pill-card,.stat-pill-box,.model-card,.section-heading').forEach(element => {
+          gsap.from(element, { y: 20, duration: .65, ease: 'power2.out', clearProps: 'transform', scrollTrigger: { trigger: element, start: 'top 92%', once: true } });
         });
       });
       let active = true;
@@ -30,7 +30,6 @@ export function useEditorialMotion(path) {
       window.addEventListener('load', refresh, { once: true });
       teardown = () => { active = false; window.removeEventListener('load', refresh); context.revert(); gsap.ticker.remove(tick); lenis.destroy(); };
     }
-    // Progressive enhancement: static content remains complete when a motion chunk cannot load.
     const activate = () => { start().catch(() => {}); };
     activate(); preference.addEventListener('change', activate);
     return () => { mounted = false; generation++; preference.removeEventListener('change', activate); teardown(); };
